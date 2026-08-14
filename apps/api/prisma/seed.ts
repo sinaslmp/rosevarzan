@@ -23,6 +23,22 @@ async function main() {
     },
   });
 
+  // Temporary seeded test customer for pre-launch QA — remove once real
+  // customer accounts exist and this is no longer needed for testing.
+  const testCustomerEmail = process.env.TEST_CUSTOMER_EMAIL ?? "customer@rosevarzan.com";
+  const testCustomerPassword = process.env.TEST_CUSTOMER_PASSWORD ?? "TestUser1234";
+
+  await prisma.user.upsert({
+    where: { email: testCustomerEmail },
+    update: {},
+    create: {
+      email: testCustomerEmail,
+      passwordHash: await bcrypt.hash(testCustomerPassword, 12),
+      fullName: "کاربر آزمایشی",
+      role: "USER",
+    },
+  });
+
   const categories = [
     {
       slug: "ornamental-flowers",
@@ -42,7 +58,6 @@ async function main() {
           unitEn: "plant",
           price: 350000,
           stock: 40,
-          images: ["/farm/rose-garden.jpg"],
         },
         {
           slug: "chrysanthemum",
@@ -75,7 +90,6 @@ async function main() {
           unitEn: "100g pack",
           price: 220000,
           stock: 100,
-          images: ["/farm/damask-rose-petals.jpg"],
         },
         {
           slug: "mint-seedling",
@@ -108,7 +122,6 @@ async function main() {
           unitEn: "sapling",
           price: 480000,
           stock: 30,
-          images: ["/farm/cherries.jpg"],
         },
         {
           slug: "seedless-grape-sapling",
@@ -141,7 +154,7 @@ async function main() {
           categoryId: category.id,
           descriptionFa: `${product.summaryFa} ${PLACEHOLDER_NOTE_FA}`,
           descriptionEn: `${product.summaryEn} ${PLACEHOLDER_NOTE_EN}`,
-          images: "images" in product ? product.images : [],
+          images: [],
           featured: index === 0,
           published: true,
           displayOrder: index,

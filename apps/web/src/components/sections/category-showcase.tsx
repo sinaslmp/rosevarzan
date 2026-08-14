@@ -8,7 +8,7 @@ import { Link } from "@/i18n/navigation";
 import type { Category } from "@/lib/types";
 
 const CATEGORY_IMAGES: Record<string, string> = {
-  "ornamental-flowers": "/farm/rose-garden.jpg",
+  "ornamental-flowers": "/farm/damask-rose-petals.jpg",
   "medicinal-edible-plants": "/farm/saffron.jpg",
   "fruit-tree-saplings": "/farm/orchard-blossom.jpg",
 };

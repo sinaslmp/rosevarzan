@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SignInForm } from "@/components/sections/sign-in-form";
+import { TestCredentialsNotice } from "@/components/sections/test-credentials-notice";
 
 export default async function SignInPage({ params }: PageProps<"/[locale]/auth/sign-in">) {
   const { locale } = await params;
@@ -19,6 +20,7 @@ export default async function SignInPage({ params }: PageProps<"/[locale]/auth/s
           {t("signUpLink")}
         </Link>
       </p>
+      <TestCredentialsNotice />
     </div>
   );
 }

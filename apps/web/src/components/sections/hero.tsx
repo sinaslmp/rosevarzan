@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useFormatter, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -11,6 +11,7 @@ const STAGE_IMAGES = ["/farm/orchard-blossom.jpg", "/farm/damask-rose-petals.jpg
 
 export function Hero() {
   const t = useTranslations("home.hero");
+  const format = useFormatter();
   const sectionRef = useRef<HTMLElement>(null);
   const [progress, setProgress] = useState(0);
   const stages = t.raw("stages") as { number: string; label: string; title: string; body: string }[];
@@ -79,7 +80,7 @@ export function Hero() {
             <div className="flex items-center justify-between text-xs font-medium text-paper/60">
               <span>{t("routeLabel")}</span>
               <span dir="ltr">
-                {stage.number} / {stages.length.toLocaleString()}
+                {stage.number} / {format.number(stages.length, { minimumIntegerDigits: 2 })}
               </span>
             </div>
             <div className="mt-5 min-h-40">

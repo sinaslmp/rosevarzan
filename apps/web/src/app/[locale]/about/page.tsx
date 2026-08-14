@@ -34,7 +34,7 @@ export default async function AboutPage({ params }: PageProps<"/[locale]/about">
       </div>
 
       <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3">
-        {["/farm/orchard-blossom.jpg", "/farm/rose-garden.jpg", "/farm/saffron.jpg", "/farm/cherries.jpg", "/farm/apples.jpg", "/farm/estate-courtyard.jpg"].map((src) => (
+        {["/farm/orchard-blossom.jpg", "/farm/damask-rose-petals.jpg", "/farm/saffron.jpg", "/farm/cherries.jpg", "/farm/apples.jpg", "/farm/estate-courtyard.jpg"].map((src) => (
           <div key={src} className="relative aspect-square overflow-hidden rounded-2xl">
             <Image src={src} alt="" fill sizes="200px" className="object-cover" />
           </div>
