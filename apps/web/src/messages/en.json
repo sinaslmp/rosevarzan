@@ -1,0 +1,308 @@
+{
+  "metadata": {
+    "title": "Rose Varzan | Medicinal Herbs, Flowers & Fruit Saplings",
+    "description": "Rose Varzan Agricultural Cooperative — traditional medicinal & edible herbs, ornamental flowers, and fruit tree saplings, hand-harvested direct from the Varzan farm, Natanz."
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "account": "Account",
+    "admin": "Admin",
+    "cart": "Cart",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "themeSwitcher": { "label": "Appearance", "light": "Light", "dark": "Dark", "system": "System" },
+    "languageSwitcher": { "label": "Language" }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Medicinal herb cultivation in Varzan village",
+      "title": "From Varzan's soil to your home apothecary",
+      "subtitle": "Medicinal & edible plants, ornamental flowers, and fruit tree saplings — grown on the Rose Varzan family farm since 2003.",
+      "ctaShop": "Browse the shop",
+      "ctaAbout": "More about us",
+      "scrollHint": "Scroll to follow the farm-to-product route",
+      "routeLabel": "Production route",
+      "stages": [
+        {
+          "number": "01",
+          "label": "Cultivation",
+          "title": "Rooted in Varzan's soil",
+          "body": "Damask rose, medicinal herbs and fruit saplings grow in the highlands of Varzan village, away from urban pollution."
+        },
+        {
+          "number": "02",
+          "label": "Harvest",
+          "title": "Hand-picked, shade-dried",
+          "body": "Harvested by hand in season and dried in the shade — no additives, no industrial processing."
+        },
+        {
+          "number": "03",
+          "label": "Herbal product",
+          "title": "Straight from the farm to your door",
+          "body": "No middlemen and no long storage — packed and shipped to you directly from Varzan."
+        }
+      ]
+    },
+    "categories": {
+      "eyebrow": "What we grow",
+      "title": "Three product lines, one family farm",
+      "subtitle": "Each section of the Varzan farm is dedicated to a family of plants — at its heart, traditional medicinal and edible herbs.",
+      "viewAll": "View products"
+    },
+    "featured": {
+      "eyebrow": "This season's harvest",
+      "title": "Featured products",
+      "subtitle": "A sample of this season's harvest."
+    },
+    "trust": {
+      "eyebrow": "Transparency & provenance",
+      "title": "A registered cooperative, not an anonymous storefront",
+      "regNumber": "Registration No.",
+      "nationalId": "National ID",
+      "regDate": "Registered",
+      "location": "Farm location"
+    },
+    "cta": {
+      "title": "Get in touch for wholesale or custom orders",
+      "action": "Contact us"
+    }
+  },
+  "about": {
+    "title": "About Rose Varzan",
+    "intro": "Rose Varzan Agricultural Cooperative Company, registration No. 325, was founded in 1382 (2003) under private ownership; its main activity was resumed in 1396 (2017) by Mr. Fereydoun Alizadeh Heydari.",
+    "location": "The company is located in Isfahan Province, Natanz County, Central District, Tarq-e Rud Rural District, Varzan village, Bagestan-e Bala Street, Sarcheshmeh Alley, postal code 8763186713, established for the cultivation of ornamental flowers, medicinal and edible plants, and stone and seedless fruit trees.",
+    "registrationTitle": "Registration details",
+    "registration": {
+      "name": "Rose Varzan Agricultural Cooperative Company",
+      "number": "Registration No.: 325",
+      "nationalId": "National ID: 10260072929",
+      "type": "Company type: Cooperative",
+      "date": "Registered: 1382/03/27 (2003)"
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "For wholesale orders, partnerships, or any question, get in touch.",
+    "infoTitle": "Contact details",
+    "farmAddress": "Farm address",
+    "farmAddressValue": "Isfahan Province, Natanz County, Varzan village",
+    "officeAddress": "Head office",
+    "officeAddressValue": "Tehran, Shemiranat, Tajrish, Chizar, Sasan St, Shahid Alavi St, No. 8, Sana Complex, 6th floor, Unit 620",
+    "postalCode": "Postal code",
+    "postalCodeValue": "1937735570",
+    "phone": "Phone",
+    "phoneValue": "(021) 91556748",
+    "form": {
+      "title": "Send a message",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Your message",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Your message has been sent. We'll be in touch soon.",
+      "error": "Couldn't send your message. Please try again."
+    }
+  },
+  "shop": {
+    "title": "Shop",
+    "subtitle": "Buy directly from the Varzan farm.",
+    "allCategories": "All products",
+    "searchPlaceholder": "Search products...",
+    "empty": "No products found in this category.",
+    "addToCart": "Add to cart",
+    "outOfStock": "Out of stock",
+    "inStock": "In stock",
+    "priceLabel": "Price",
+    "perUnit": "per {unit}"
+  },
+  "product": {
+    "backToShop": "Back to shop",
+    "quantity": "Quantity",
+    "addToCart": "Add to cart",
+    "added": "Added to cart",
+    "category": "Category",
+    "description": "Description"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty.",
+    "emptyCta": "Browse the shop",
+    "remove": "Remove",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "continueShopping": "Continue shopping",
+    "itemCount": "{count} items"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shippingTitle": "Shipping details",
+    "contactName": "Recipient name",
+    "contactPhone": "Phone number",
+    "province": "Province",
+    "city": "City",
+    "addressLine": "Full address",
+    "postalCode": "Postal code (optional)",
+    "note": "Order note (optional)",
+    "summaryTitle": "Order summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "shippingFree": "Free",
+    "total": "Total due",
+    "submit": "Pay online",
+    "submitting": "Redirecting to payment...",
+    "emptyTitle": "Your cart is empty",
+    "emptyBody": "Add a product to your cart before checking out.",
+    "emptyCta": "Go to shop",
+    "error": "Couldn't place your order. Please try again.",
+    "validation": {
+      "nameRequired": "Enter the recipient's name.",
+      "phoneRequired": "Enter a valid phone number.",
+      "cityRequired": "This field is required.",
+      "addressRequired": "Enter the full address."
+    }
+  },
+  "checkoutResult": {
+    "successTitle": "Payment successful",
+    "successBody": "Your order has been placed and will be prepared for shipping soon.",
+    "failedTitle": "Payment failed",
+    "failedBody": "Your payment didn't go through. You can try again or contact us.",
+    "orderNumber": "Order number",
+    "viewAccount": "View my orders",
+    "backToShop": "Back to shop"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Sign in",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "signUpLink": "Sign up"
+    },
+    "signUp": {
+      "title": "Create an account",
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "password": "Password",
+      "passwordHint": "At least 10 characters, with a letter and a number",
+      "submit": "Sign up",
+      "haveAccount": "Already have an account?",
+      "signInLink": "Sign in"
+    },
+    "validation": {
+      "emailInvalid": "Enter a valid email address.",
+      "passwordRequired": "Enter your password.",
+      "nameRequired": "Enter your full name.",
+      "passwordWeak": "Password must be at least 10 characters with a letter and a number."
+    }
+  },
+  "account": {
+    "title": "Account",
+    "welcome": "Welcome, {name}",
+    "ordersTitle": "My orders",
+    "ordersEmpty": "You haven't placed any orders yet.",
+    "orderNumber": "Order number",
+    "orderDate": "Date",
+    "orderTotal": "Total",
+    "orderStatus": "Status",
+    "signOut": "Sign out",
+    "status": {
+      "PENDING_PAYMENT": "Awaiting payment",
+      "PAID": "Paid",
+      "PROCESSING": "Processing",
+      "SHIPPED": "Shipped",
+      "DELIVERED": "Delivered",
+      "CANCELLED": "Cancelled",
+      "REFUNDED": "Refunded"
+    }
+  },
+  "admin": {
+    "nav": { "overview": "Overview", "products": "Products", "categories": "Categories", "orders": "Orders", "users": "Users", "messages": "Messages" },
+    "overview": {
+      "title": "Admin overview",
+      "users": "Users",
+      "orders": "Orders",
+      "pendingOrders": "Awaiting payment",
+      "revenue": "Revenue collected",
+      "unhandledMessages": "Unread messages",
+      "lowStock": "Low stock"
+    },
+    "products": {
+      "title": "Products",
+      "new": "New product",
+      "edit": "Edit",
+      "delete": "Delete",
+      "published": "Published",
+      "unpublished": "Unpublished",
+      "save": "Save",
+      "fields": {
+        "slug": "Slug",
+        "category": "Category",
+        "nameFa": "Name (Persian)",
+        "nameEn": "Name (English)",
+        "summaryFa": "Summary (Persian)",
+        "summaryEn": "Summary (English)",
+        "descriptionFa": "Description (Persian)",
+        "descriptionEn": "Description (English)",
+        "unitFa": "Unit (Persian)",
+        "unitEn": "Unit (English)",
+        "price": "Price (Rial)",
+        "stock": "Stock",
+        "featured": "Featured",
+        "published": "Published",
+        "images": "Images (comma-separated URLs)"
+      }
+    },
+    "categories": {
+      "title": "Categories",
+      "new": "New category",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "fields": { "slug": "Slug", "nameFa": "Name (Persian)", "nameEn": "Name (English)", "descriptionFa": "Description (Persian)", "descriptionEn": "Description (English)", "displayOrder": "Display order" }
+    },
+    "orders": {
+      "title": "Orders",
+      "customer": "Customer",
+      "total": "Total",
+      "status": "Status",
+      "date": "Date",
+      "updateStatus": "Update status"
+    },
+    "users": {
+      "title": "Users",
+      "role": "Role",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "messages": {
+      "title": "Contact messages",
+      "handled": "Handled",
+      "unhandled": "Unhandled",
+      "markHandled": "Mark as handled"
+    }
+  },
+  "footer": {
+    "tagline": "Flowers, medicinal plants, and fruit saplings grown on the Varzan farm, Natanz.",
+    "quickLinks": "Quick links",
+    "contactTitle": "Contact",
+    "rights": "© {year} Rose Varzan Agricultural Cooperative Company. All rights reserved."
+  },
+  "common": {
+    "toman": "Toman",
+    "rial": "Rial",
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close"
+  }
+}

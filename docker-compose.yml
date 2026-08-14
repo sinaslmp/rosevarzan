@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: rosevarzan-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: rosevarzan
+      POSTGRES_USER: rosevarzan
+      POSTGRES_PASSWORD: rosevarzan
+    ports:
+      - "55433:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rosevarzan -d rosevarzan"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+volumes:
+  postgres-data:

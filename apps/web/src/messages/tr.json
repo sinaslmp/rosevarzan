@@ -1,0 +1,308 @@
+{
+  "metadata": {
+    "title": "Rose Varzan | Şifalı Bitkiler, Çiçekler ve Meyve Fidanları",
+    "description": "Rose Varzan Tarım Kooperatifi — Varzan çiftliğinden doğrudan elle hasat edilen geleneksel şifalı ve yenilebilir bitkiler, süs çiçekleri ve meyve fidanları."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "shop": "Mağaza",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "account": "Hesap",
+    "admin": "Yönetim",
+    "cart": "Sepet",
+    "signIn": "Giriş yap",
+    "signOut": "Çıkış yap",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "themeSwitcher": { "label": "Görünüm", "light": "Açık", "dark": "Koyu", "system": "Sistem" },
+    "languageSwitcher": { "label": "Dil" }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Varzan köyünde şifalı bitki yetiştiriciliği",
+      "title": "Varzan toprağından ev eczanenize",
+      "subtitle": "Şifalı ve yenilebilir bitkiler, süs çiçekleri ve meyve fidanları — 2003'ten beri Rose Varzan aile çiftliğinde yetiştiriliyor.",
+      "ctaShop": "Mağazaya göz atın",
+      "ctaAbout": "Hakkımızda daha fazlası",
+      "scrollHint": "Çiftlikten ürüne uzanan yolu izlemek için kaydırın",
+      "routeLabel": "Üretim rotası",
+      "stages": [
+        {
+          "number": "01",
+          "label": "Yetiştirme",
+          "title": "Varzan toprağına kök salmış",
+          "body": "Şam gülü, şifalı bitkiler ve meyve fidanları, şehir kirliliğinden uzak Varzan köyünün yüksek kesimlerinde yetişir."
+        },
+        {
+          "number": "02",
+          "label": "Hasat",
+          "title": "Elle toplanır, gölgede kurutulur",
+          "body": "Mevsiminde elle hasat edilir ve gölgede kurutulur — katkı maddesi ve endüstriyel işlem olmadan."
+        },
+        {
+          "number": "03",
+          "label": "Bitkisel ürün",
+          "title": "Çiftlikten doğrudan kapınıza",
+          "body": "Aracı ve uzun depolama olmadan — Varzan'dan doğrudan sizin için paketlenip gönderilir."
+        }
+      ]
+    },
+    "categories": {
+      "eyebrow": "Neler yetiştiriyoruz",
+      "title": "Üç ürün hattı, tek bir aile çiftliği",
+      "subtitle": "Varzan çiftliğinin her bölümü bir bitki ailesine ayrılmıştır — merkezinde geleneksel şifalı ve yenilebilir bitkiler yer alır.",
+      "viewAll": "Ürünleri görüntüle"
+    },
+    "featured": {
+      "eyebrow": "Bu sezonun hasadı",
+      "title": "Öne çıkan ürünler",
+      "subtitle": "Bu sezonun hasadından bir seçki."
+    },
+    "trust": {
+      "eyebrow": "Şeffaflık ve köken",
+      "title": "Anonim bir mağaza değil, kayıtlı bir kooperatif",
+      "regNumber": "Kayıt No.",
+      "nationalId": "Ulusal Kimlik No.",
+      "regDate": "Kayıt tarihi",
+      "location": "Çiftlik konumu"
+    },
+    "cta": {
+      "title": "Toptan veya özel siparişler için bizimle iletişime geçin",
+      "action": "Bize ulaşın"
+    }
+  },
+  "about": {
+    "title": "Rose Varzan Hakkında",
+    "intro": "Rose Varzan Tarım Kooperatifi Şirketi, 325 sicil numarasıyla, 1382 (2003) yılında özel mülkiyet altında kurulmuştur; ana faaliyeti 1396 (2017) yılında Sayın Fereydoun Alizadeh Heydari tarafından yeniden başlatılmıştır.",
+    "location": "Şirket, İsfahan eyaleti, Natanz ilçesi, merkez bölge, Tarq-e Rud kırsal bölgesi, Varzan köyü, Bagestan-e Bala Caddesi, Sarcheshmeh Sokağı, posta kodu 8763186713 adresinde bulunmaktadır; süs çiçekleri, şifalı ve yenilebilir bitkiler ile çekirdekli ve çekirdeksiz meyve ağaçlarının yetiştirilmesi amacıyla kurulmuştur.",
+    "registrationTitle": "Kayıt bilgileri",
+    "registration": {
+      "name": "Rose Varzan Tarım Kooperatifi Şirketi",
+      "number": "Kayıt No.: 325",
+      "nationalId": "Ulusal Kimlik No.: 10260072929",
+      "type": "Şirket türü: Kooperatif",
+      "date": "Kayıt tarihi: 1382/03/27 (2003)"
+    }
+  },
+  "contact": {
+    "title": "Bize ulaşın",
+    "subtitle": "Toptan siparişler, iş birlikleri veya herhangi bir soru için bizimle iletişime geçin.",
+    "infoTitle": "İletişim bilgileri",
+    "farmAddress": "Çiftlik adresi",
+    "farmAddressValue": "İsfahan eyaleti, Natanz ilçesi, Varzan köyü",
+    "officeAddress": "Merkez ofis",
+    "officeAddressValue": "Tahran, Şemiranat, Tajrish, Chizar, Sasan Caddesi, Şehit Alavi Caddesi No. 8, Sana Kompleksi, 6. kat, Daire 620",
+    "postalCode": "Posta kodu",
+    "postalCodeValue": "1937735570",
+    "phone": "Telefon",
+    "phoneValue": "(021) 91556748",
+    "form": {
+      "title": "Mesaj gönder",
+      "name": "Ad soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "submit": "Mesajı gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız gönderildi. Yakında sizinle iletişime geçeceğiz.",
+      "error": "Mesajınız gönderilemedi. Lütfen tekrar deneyin."
+    }
+  },
+  "shop": {
+    "title": "Mağaza",
+    "subtitle": "Doğrudan Varzan çiftliğinden satın alın.",
+    "allCategories": "Tüm ürünler",
+    "searchPlaceholder": "Ürün ara...",
+    "empty": "Bu kategoride ürün bulunamadı.",
+    "addToCart": "Sepete ekle",
+    "outOfStock": "Stokta yok",
+    "inStock": "Stokta var",
+    "priceLabel": "Fiyat",
+    "perUnit": "{unit} başına"
+  },
+  "product": {
+    "backToShop": "Mağazaya dön",
+    "quantity": "Miktar",
+    "addToCart": "Sepete ekle",
+    "added": "Sepete eklendi",
+    "category": "Kategori",
+    "description": "Açıklama"
+  },
+  "cart": {
+    "title": "Sepet",
+    "empty": "Sepetiniz boş.",
+    "emptyCta": "Mağazaya göz atın",
+    "remove": "Kaldır",
+    "subtotal": "Ara toplam",
+    "checkout": "Ödemeye geç",
+    "continueShopping": "Alışverişe devam et",
+    "itemCount": "{count} ürün"
+  },
+  "checkout": {
+    "title": "Ödeme",
+    "shippingTitle": "Teslimat bilgileri",
+    "contactName": "Alıcı adı",
+    "contactPhone": "Telefon numarası",
+    "province": "Eyalet",
+    "city": "Şehir",
+    "addressLine": "Tam adres",
+    "postalCode": "Posta kodu (isteğe bağlı)",
+    "note": "Sipariş notu (isteğe bağlı)",
+    "summaryTitle": "Sipariş özeti",
+    "subtotal": "Ara toplam",
+    "shipping": "Kargo",
+    "shippingFree": "Ücretsiz",
+    "total": "Ödenecek tutar",
+    "submit": "Online öde",
+    "submitting": "Ödeme sayfasına yönlendiriliyor...",
+    "emptyTitle": "Sepetiniz boş",
+    "emptyBody": "Ödemeye geçmeden önce sepetinize bir ürün ekleyin.",
+    "emptyCta": "Mağazaya git",
+    "error": "Siparişiniz oluşturulamadı. Lütfen tekrar deneyin.",
+    "validation": {
+      "nameRequired": "Alıcının adını girin.",
+      "phoneRequired": "Geçerli bir telefon numarası girin.",
+      "cityRequired": "Bu alan zorunludur.",
+      "addressRequired": "Tam adresi girin."
+    }
+  },
+  "checkoutResult": {
+    "successTitle": "Ödeme başarılı",
+    "successBody": "Siparişiniz alındı ve yakında sevkiyat için hazırlanacak.",
+    "failedTitle": "Ödeme başarısız",
+    "failedBody": "Ödemeniz tamamlanamadı. Tekrar deneyebilir veya bizimle iletişime geçebilirsiniz.",
+    "orderNumber": "Sipariş numarası",
+    "viewAccount": "Siparişlerimi görüntüle",
+    "backToShop": "Mağazaya dön"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Giriş yap",
+      "email": "E-posta",
+      "password": "Şifre",
+      "submit": "Giriş yap",
+      "noAccount": "Hesabınız yok mu?",
+      "signUpLink": "Kayıt olun"
+    },
+    "signUp": {
+      "title": "Hesap oluştur",
+      "fullName": "Ad soyad",
+      "email": "E-posta",
+      "phone": "Telefon (isteğe bağlı)",
+      "password": "Şifre",
+      "passwordHint": "En az 10 karakter, bir harf ve bir rakam içermeli",
+      "submit": "Kayıt ol",
+      "haveAccount": "Zaten bir hesabınız var mı?",
+      "signInLink": "Giriş yapın"
+    },
+    "validation": {
+      "emailInvalid": "Geçerli bir e-posta adresi girin.",
+      "passwordRequired": "Şifrenizi girin.",
+      "nameRequired": "Ad soyadınızı girin.",
+      "passwordWeak": "Şifre en az 10 karakter olmalı, bir harf ve bir rakam içermelidir."
+    }
+  },
+  "account": {
+    "title": "Hesap",
+    "welcome": "Hoş geldiniz, {name}",
+    "ordersTitle": "Siparişlerim",
+    "ordersEmpty": "Henüz bir sipariş vermediniz.",
+    "orderNumber": "Sipariş numarası",
+    "orderDate": "Tarih",
+    "orderTotal": "Toplam",
+    "orderStatus": "Durum",
+    "signOut": "Çıkış yap",
+    "status": {
+      "PENDING_PAYMENT": "Ödeme bekleniyor",
+      "PAID": "Ödendi",
+      "PROCESSING": "Hazırlanıyor",
+      "SHIPPED": "Kargoya verildi",
+      "DELIVERED": "Teslim edildi",
+      "CANCELLED": "İptal edildi",
+      "REFUNDED": "İade edildi"
+    }
+  },
+  "admin": {
+    "nav": { "overview": "Genel bakış", "products": "Ürünler", "categories": "Kategoriler", "orders": "Siparişler", "users": "Kullanıcılar", "messages": "Mesajlar" },
+    "overview": {
+      "title": "Yönetim genel bakışı",
+      "users": "Kullanıcılar",
+      "orders": "Siparişler",
+      "pendingOrders": "Ödeme bekleyen",
+      "revenue": "Tahsil edilen gelir",
+      "unhandledMessages": "Okunmamış mesajlar",
+      "lowStock": "Düşük stok"
+    },
+    "products": {
+      "title": "Ürünler",
+      "new": "Yeni ürün",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "published": "Yayınlandı",
+      "unpublished": "Yayınlanmadı",
+      "save": "Kaydet",
+      "fields": {
+        "slug": "Slug",
+        "category": "Kategori",
+        "nameFa": "Ad (Farsça)",
+        "nameEn": "Ad (İngilizce)",
+        "summaryFa": "Özet (Farsça)",
+        "summaryEn": "Özet (İngilizce)",
+        "descriptionFa": "Açıklama (Farsça)",
+        "descriptionEn": "Açıklama (İngilizce)",
+        "unitFa": "Birim (Farsça)",
+        "unitEn": "Birim (İngilizce)",
+        "price": "Fiyat (Riyal)",
+        "stock": "Stok",
+        "featured": "Öne çıkan",
+        "published": "Yayınlandı",
+        "images": "Görseller (virgülle ayrılmış URL'ler)"
+      }
+    },
+    "categories": {
+      "title": "Kategoriler",
+      "new": "Yeni kategori",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "save": "Kaydet",
+      "fields": { "slug": "Slug", "nameFa": "Ad (Farsça)", "nameEn": "Ad (İngilizce)", "descriptionFa": "Açıklama (Farsça)", "descriptionEn": "Açıklama (İngilizce)", "displayOrder": "Görüntüleme sırası" }
+    },
+    "orders": {
+      "title": "Siparişler",
+      "customer": "Müşteri",
+      "total": "Toplam",
+      "status": "Durum",
+      "date": "Tarih",
+      "updateStatus": "Durumu güncelle"
+    },
+    "users": {
+      "title": "Kullanıcılar",
+      "role": "Rol",
+      "active": "Aktif",
+      "inactive": "Pasif"
+    },
+    "messages": {
+      "title": "İletişim mesajları",
+      "handled": "İşleme alındı",
+      "unhandled": "İşlenmedi",
+      "markHandled": "İşleme alındı olarak işaretle"
+    }
+  },
+  "footer": {
+    "tagline": "Natanz, Varzan çiftliğinde yetiştirilen çiçekler, şifalı bitkiler ve meyve fidanları.",
+    "quickLinks": "Hızlı bağlantılar",
+    "contactTitle": "İletişim",
+    "rights": "© {year} Rose Varzan Tarım Kooperatifi Şirketi. Tüm hakları saklıdır."
+  },
+  "common": {
+    "toman": "Tümen",
+    "rial": "Riyal",
+    "loading": "Yükleniyor...",
+    "error": "Bir şeyler ters gitti.",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "close": "Kapat"
+  }
+}

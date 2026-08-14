@@ -1,0 +1,308 @@
+{
+  "metadata": {
+    "title": "Rose Varzan | Erbe medicinali, fiori e piantine da frutto",
+    "description": "Cooperativa Agricola Rose Varzan — erbe medicinali e commestibili tradizionali, fiori ornamentali e piantine da frutto, raccolte a mano direttamente dalla fattoria di Varzan, Natanz."
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Negozio",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "account": "Account",
+    "admin": "Amministrazione",
+    "cart": "Carrello",
+    "signIn": "Accedi",
+    "signOut": "Esci",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "themeSwitcher": { "label": "Aspetto", "light": "Chiaro", "dark": "Scuro", "system": "Sistema" },
+    "languageSwitcher": { "label": "Lingua" }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Coltivazione di erbe medicinali nel villaggio di Varzan",
+      "title": "Dalla terra di Varzan alla vostra farmacia di casa",
+      "subtitle": "Piante medicinali e commestibili, fiori ornamentali e piantine da frutto — coltivati nella fattoria di famiglia Rose Varzan dal 2003.",
+      "ctaShop": "Sfoglia il negozio",
+      "ctaAbout": "Scopri di più su di noi",
+      "scrollHint": "Scorri per seguire il percorso dalla fattoria al prodotto",
+      "routeLabel": "Percorso di produzione",
+      "stages": [
+        {
+          "number": "01",
+          "label": "Coltivazione",
+          "title": "Radicata nella terra di Varzan",
+          "body": "Rosa damascena, erbe medicinali e piantine da frutto crescono sulle alture del villaggio di Varzan, lontano dall'inquinamento urbano."
+        },
+        {
+          "number": "02",
+          "label": "Raccolta",
+          "title": "Raccolta a mano, essiccata all'ombra",
+          "body": "Raccolta a mano nella stagione giusta ed essiccata all'ombra — senza additivi, senza lavorazione industriale."
+        },
+        {
+          "number": "03",
+          "label": "Prodotto erboristico",
+          "title": "Direttamente dalla fattoria a casa vostra",
+          "body": "Senza intermediari e senza lunghi stoccaggi — imballato e spedito direttamente da Varzan."
+        }
+      ]
+    },
+    "categories": {
+      "eyebrow": "Cosa coltiviamo",
+      "title": "Tre linee di prodotti, una fattoria di famiglia",
+      "subtitle": "Ogni area della fattoria di Varzan è dedicata a una famiglia di piante — al centro, le erbe medicinali e commestibili tradizionali.",
+      "viewAll": "Vedi i prodotti"
+    },
+    "featured": {
+      "eyebrow": "Raccolto di stagione",
+      "title": "Prodotti in evidenza",
+      "subtitle": "Un assaggio del raccolto di questa stagione."
+    },
+    "trust": {
+      "eyebrow": "Trasparenza e provenienza",
+      "title": "Una cooperativa registrata, non un negozio anonimo",
+      "regNumber": "N. di registrazione",
+      "nationalId": "ID nazionale",
+      "regDate": "Registrata",
+      "location": "Posizione della fattoria"
+    },
+    "cta": {
+      "title": "Contattaci per ordini all'ingrosso o personalizzati",
+      "action": "Contattaci"
+    }
+  },
+  "about": {
+    "title": "Chi è Rose Varzan",
+    "intro": "La Cooperativa Agricola Rose Varzan, numero di registrazione 325, è stata fondata nel 1382 (2003) come proprietà privata; la sua attività principale è stata ripresa nel 1396 (2017) dal Sig. Fereydoun Alizadeh Heydari.",
+    "location": "L'azienda si trova nella provincia di Isfahan, contea di Natanz, distretto centrale, distretto rurale di Tarq-e Rud, villaggio di Varzan, via Bagestan-e Bala, vicolo Sarcheshmeh, codice postale 8763186713, costituita per la coltivazione di fiori ornamentali, piante medicinali e commestibili, e alberi da frutto con e senza nocciolo.",
+    "registrationTitle": "Dati di registrazione",
+    "registration": {
+      "name": "Cooperativa Agricola Rose Varzan",
+      "number": "N. di registrazione: 325",
+      "nationalId": "ID nazionale: 10260072929",
+      "type": "Tipo di società: Cooperativa",
+      "date": "Registrata: 1382/03/27 (2003)"
+    }
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Per ordini all'ingrosso, collaborazioni o qualsiasi domanda, contattaci.",
+    "infoTitle": "Dati di contatto",
+    "farmAddress": "Indirizzo della fattoria",
+    "farmAddressValue": "Provincia di Isfahan, contea di Natanz, villaggio di Varzan",
+    "officeAddress": "Sede centrale",
+    "officeAddressValue": "Teheran, Shemiranat, Tajrish, Chizar, via Sasan, via Shahid Alavi n. 8, Complesso Sana, 6° piano, unità 620",
+    "postalCode": "Codice postale",
+    "postalCodeValue": "1937735570",
+    "phone": "Telefono",
+    "phoneValue": "(021) 91556748",
+    "form": {
+      "title": "Invia un messaggio",
+      "name": "Nome completo",
+      "email": "Email",
+      "phone": "Telefono",
+      "subject": "Oggetto",
+      "message": "Il tuo messaggio",
+      "submit": "Invia messaggio",
+      "sending": "Invio in corso...",
+      "success": "Il tuo messaggio è stato inviato. Ti contatteremo presto.",
+      "error": "Impossibile inviare il messaggio. Riprova."
+    }
+  },
+  "shop": {
+    "title": "Negozio",
+    "subtitle": "Acquista direttamente dalla fattoria di Varzan.",
+    "allCategories": "Tutti i prodotti",
+    "searchPlaceholder": "Cerca prodotti...",
+    "empty": "Nessun prodotto trovato in questa categoria.",
+    "addToCart": "Aggiungi al carrello",
+    "outOfStock": "Esaurito",
+    "inStock": "Disponibile",
+    "priceLabel": "Prezzo",
+    "perUnit": "per {unit}"
+  },
+  "product": {
+    "backToShop": "Torna al negozio",
+    "quantity": "Quantità",
+    "addToCart": "Aggiungi al carrello",
+    "added": "Aggiunto al carrello",
+    "category": "Categoria",
+    "description": "Descrizione"
+  },
+  "cart": {
+    "title": "Carrello",
+    "empty": "Il tuo carrello è vuoto.",
+    "emptyCta": "Sfoglia il negozio",
+    "remove": "Rimuovi",
+    "subtotal": "Subtotale",
+    "checkout": "Vai alla cassa",
+    "continueShopping": "Continua lo shopping",
+    "itemCount": "{count} articoli"
+  },
+  "checkout": {
+    "title": "Cassa",
+    "shippingTitle": "Dettagli di spedizione",
+    "contactName": "Nome del destinatario",
+    "contactPhone": "Numero di telefono",
+    "province": "Provincia",
+    "city": "Città",
+    "addressLine": "Indirizzo completo",
+    "postalCode": "Codice postale (opzionale)",
+    "note": "Nota dell'ordine (opzionale)",
+    "summaryTitle": "Riepilogo ordine",
+    "subtotal": "Subtotale",
+    "shipping": "Spedizione",
+    "shippingFree": "Gratuita",
+    "total": "Totale da pagare",
+    "submit": "Paga online",
+    "submitting": "Reindirizzamento al pagamento...",
+    "emptyTitle": "Il tuo carrello è vuoto",
+    "emptyBody": "Aggiungi un prodotto al carrello prima di procedere al pagamento.",
+    "emptyCta": "Vai al negozio",
+    "error": "Impossibile completare l'ordine. Riprova.",
+    "validation": {
+      "nameRequired": "Inserisci il nome del destinatario.",
+      "phoneRequired": "Inserisci un numero di telefono valido.",
+      "cityRequired": "Questo campo è obbligatorio.",
+      "addressRequired": "Inserisci l'indirizzo completo."
+    }
+  },
+  "checkoutResult": {
+    "successTitle": "Pagamento riuscito",
+    "successBody": "Il tuo ordine è stato effettuato e sarà presto preparato per la spedizione.",
+    "failedTitle": "Pagamento non riuscito",
+    "failedBody": "Il pagamento non è andato a buon fine. Puoi riprovare o contattarci.",
+    "orderNumber": "Numero d'ordine",
+    "viewAccount": "Vedi i miei ordini",
+    "backToShop": "Torna al negozio"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Accedi",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Accedi",
+      "noAccount": "Non hai un account?",
+      "signUpLink": "Registrati"
+    },
+    "signUp": {
+      "title": "Crea un account",
+      "fullName": "Nome completo",
+      "email": "Email",
+      "phone": "Telefono (opzionale)",
+      "password": "Password",
+      "passwordHint": "Almeno 10 caratteri, con una lettera e un numero",
+      "submit": "Registrati",
+      "haveAccount": "Hai già un account?",
+      "signInLink": "Accedi"
+    },
+    "validation": {
+      "emailInvalid": "Inserisci un indirizzo email valido.",
+      "passwordRequired": "Inserisci la tua password.",
+      "nameRequired": "Inserisci il tuo nome completo.",
+      "passwordWeak": "La password deve contenere almeno 10 caratteri, una lettera e un numero."
+    }
+  },
+  "account": {
+    "title": "Account",
+    "welcome": "Benvenuto, {name}",
+    "ordersTitle": "I miei ordini",
+    "ordersEmpty": "Non hai ancora effettuato ordini.",
+    "orderNumber": "Numero d'ordine",
+    "orderDate": "Data",
+    "orderTotal": "Totale",
+    "orderStatus": "Stato",
+    "signOut": "Esci",
+    "status": {
+      "PENDING_PAYMENT": "In attesa di pagamento",
+      "PAID": "Pagato",
+      "PROCESSING": "In lavorazione",
+      "SHIPPED": "Spedito",
+      "DELIVERED": "Consegnato",
+      "CANCELLED": "Annullato",
+      "REFUNDED": "Rimborsato"
+    }
+  },
+  "admin": {
+    "nav": { "overview": "Panoramica", "products": "Prodotti", "categories": "Categorie", "orders": "Ordini", "users": "Utenti", "messages": "Messaggi" },
+    "overview": {
+      "title": "Panoramica amministrativa",
+      "users": "Utenti",
+      "orders": "Ordini",
+      "pendingOrders": "In attesa di pagamento",
+      "revenue": "Ricavi incassati",
+      "unhandledMessages": "Messaggi non letti",
+      "lowStock": "Scorte basse"
+    },
+    "products": {
+      "title": "Prodotti",
+      "new": "Nuovo prodotto",
+      "edit": "Modifica",
+      "delete": "Elimina",
+      "published": "Pubblicato",
+      "unpublished": "Non pubblicato",
+      "save": "Salva",
+      "fields": {
+        "slug": "Slug",
+        "category": "Categoria",
+        "nameFa": "Nome (persiano)",
+        "nameEn": "Nome (inglese)",
+        "summaryFa": "Riepilogo (persiano)",
+        "summaryEn": "Riepilogo (inglese)",
+        "descriptionFa": "Descrizione (persiano)",
+        "descriptionEn": "Descrizione (inglese)",
+        "unitFa": "Unità (persiano)",
+        "unitEn": "Unità (inglese)",
+        "price": "Prezzo (rial)",
+        "stock": "Scorte",
+        "featured": "In evidenza",
+        "published": "Pubblicato",
+        "images": "Immagini (URL separati da virgola)"
+      }
+    },
+    "categories": {
+      "title": "Categorie",
+      "new": "Nuova categoria",
+      "edit": "Modifica",
+      "delete": "Elimina",
+      "save": "Salva",
+      "fields": { "slug": "Slug", "nameFa": "Nome (persiano)", "nameEn": "Nome (inglese)", "descriptionFa": "Descrizione (persiano)", "descriptionEn": "Descrizione (inglese)", "displayOrder": "Ordine di visualizzazione" }
+    },
+    "orders": {
+      "title": "Ordini",
+      "customer": "Cliente",
+      "total": "Totale",
+      "status": "Stato",
+      "date": "Data",
+      "updateStatus": "Aggiorna stato"
+    },
+    "users": {
+      "title": "Utenti",
+      "role": "Ruolo",
+      "active": "Attivo",
+      "inactive": "Inattivo"
+    },
+    "messages": {
+      "title": "Messaggi di contatto",
+      "handled": "Gestito",
+      "unhandled": "Non gestito",
+      "markHandled": "Segna come gestito"
+    }
+  },
+  "footer": {
+    "tagline": "Fiori, piante medicinali e piantine da frutto coltivati nella fattoria di Varzan, Natanz.",
+    "quickLinks": "Link rapidi",
+    "contactTitle": "Contatti",
+    "rights": "© {year} Cooperativa Agricola Rose Varzan. Tutti i diritti riservati."
+  },
+  "common": {
+    "toman": "Toman",
+    "rial": "Rial",
+    "loading": "Caricamento...",
+    "error": "Qualcosa è andato storto.",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "close": "Chiudi"
+  }
+}

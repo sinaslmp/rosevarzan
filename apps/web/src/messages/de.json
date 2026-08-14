@@ -1,0 +1,308 @@
+{
+  "metadata": {
+    "title": "Rose Varzan | Heilkräuter, Blumen & Obstbaumsetzlinge",
+    "description": "Rose Varzan Agrargenossenschaft — traditionelle Heil- und Speisekräuter, Zierblumen und Obstbaumsetzlinge, handgeerntet direkt vom Varzan-Hof, Natanz."
+  },
+  "nav": {
+    "home": "Startseite",
+    "shop": "Shop",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "account": "Konto",
+    "admin": "Verwaltung",
+    "cart": "Warenkorb",
+    "signIn": "Anmelden",
+    "signOut": "Abmelden",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "themeSwitcher": { "label": "Darstellung", "light": "Hell", "dark": "Dunkel", "system": "System" },
+    "languageSwitcher": { "label": "Sprache" }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Anbau von Heilkräutern im Dorf Varzan",
+      "title": "Von Varzans Erde zu Ihrer Hausapotheke",
+      "subtitle": "Heil- und Speisepflanzen, Zierblumen und Obstbaumsetzlinge — angebaut auf dem Familienhof Rose Varzan seit 2003.",
+      "ctaShop": "Shop entdecken",
+      "ctaAbout": "Mehr über uns",
+      "scrollHint": "Scrollen Sie, um den Weg vom Hof zum Produkt zu verfolgen",
+      "routeLabel": "Produktionsweg",
+      "stages": [
+        {
+          "number": "01",
+          "label": "Anbau",
+          "title": "Verwurzelt in Varzans Erde",
+          "body": "Damaszener-Rosen, Heilkräuter und Obstbaumsetzlinge wachsen im Hochland des Dorfes Varzan, fernab städtischer Verschmutzung."
+        },
+        {
+          "number": "02",
+          "label": "Ernte",
+          "title": "Von Hand gepflückt, im Schatten getrocknet",
+          "body": "Saisonal von Hand geerntet und im Schatten getrocknet — ohne Zusatzstoffe, ohne industrielle Verarbeitung."
+        },
+        {
+          "number": "03",
+          "label": "Kräuterprodukt",
+          "title": "Direkt vom Hof zu Ihrer Tür",
+          "body": "Ohne Zwischenhändler und ohne lange Lagerung — direkt aus Varzan für Sie verpackt und versandt."
+        }
+      ]
+    },
+    "categories": {
+      "eyebrow": "Was wir anbauen",
+      "title": "Drei Produktlinien, ein Familienhof",
+      "subtitle": "Jeder Bereich des Varzan-Hofs ist einer Pflanzenfamilie gewidmet — im Zentrum stehen traditionelle Heil- und Speisekräuter.",
+      "viewAll": "Produkte ansehen"
+    },
+    "featured": {
+      "eyebrow": "Ernte dieser Saison",
+      "title": "Ausgewählte Produkte",
+      "subtitle": "Eine Auswahl aus der diesjährigen Ernte."
+    },
+    "trust": {
+      "eyebrow": "Transparenz & Herkunft",
+      "title": "Eine eingetragene Genossenschaft, kein anonymer Onlineshop",
+      "regNumber": "Registernummer",
+      "nationalId": "Nationale ID",
+      "regDate": "Registriert",
+      "location": "Standort des Hofs"
+    },
+    "cta": {
+      "title": "Kontaktieren Sie uns für Großhandels- oder Sonderbestellungen",
+      "action": "Kontakt aufnehmen"
+    }
+  },
+  "about": {
+    "title": "Über Rose Varzan",
+    "intro": "Die Rose Varzan Agrargenossenschaft, Registernummer 325, wurde 1382 (2003) als Privatunternehmen gegründet; ihre Haupttätigkeit wurde 1396 (2017) von Herrn Fereydoun Alizadeh Heydari wiederaufgenommen.",
+    "location": "Das Unternehmen befindet sich in der Provinz Isfahan, Landkreis Natanz, Zentralbezirk, Landgemeinde Tarq-e Rud, Dorf Varzan, Bagestan-e-Bala-Straße, Sarcheshmeh-Gasse, Postleitzahl 8763186713, gegründet für den Anbau von Zierblumen, Heil- und Speisepflanzen sowie Stein- und kernlosen Obstbäumen.",
+    "registrationTitle": "Registrierungsdetails",
+    "registration": {
+      "name": "Rose Varzan Agrargenossenschaft",
+      "number": "Registernummer: 325",
+      "nationalId": "Nationale ID: 10260072929",
+      "type": "Unternehmensform: Genossenschaft",
+      "date": "Registriert: 1382/03/27 (2003)"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Für Großhandelsbestellungen, Kooperationen oder Fragen — nehmen Sie Kontakt auf.",
+    "infoTitle": "Kontaktdaten",
+    "farmAddress": "Adresse des Hofs",
+    "farmAddressValue": "Provinz Isfahan, Landkreis Natanz, Dorf Varzan",
+    "officeAddress": "Hauptsitz",
+    "officeAddressValue": "Teheran, Shemiranat, Tajrish, Chizar, Sasan-Straße, Shahid-Alavi-Straße Nr. 8, Sana-Komplex, 6. Stock, Einheit 620",
+    "postalCode": "Postleitzahl",
+    "postalCodeValue": "1937735570",
+    "phone": "Telefon",
+    "phoneValue": "(021) 91556748",
+    "form": {
+      "title": "Nachricht senden",
+      "name": "Vollständiger Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "subject": "Betreff",
+      "message": "Ihre Nachricht",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Ihre Nachricht wurde gesendet. Wir melden uns in Kürze.",
+      "error": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+    }
+  },
+  "shop": {
+    "title": "Shop",
+    "subtitle": "Kaufen Sie direkt vom Varzan-Hof.",
+    "allCategories": "Alle Produkte",
+    "searchPlaceholder": "Produkte suchen...",
+    "empty": "In dieser Kategorie wurden keine Produkte gefunden.",
+    "addToCart": "In den Warenkorb",
+    "outOfStock": "Nicht vorrätig",
+    "inStock": "Vorrätig",
+    "priceLabel": "Preis",
+    "perUnit": "pro {unit}"
+  },
+  "product": {
+    "backToShop": "Zurück zum Shop",
+    "quantity": "Menge",
+    "addToCart": "In den Warenkorb",
+    "added": "Zum Warenkorb hinzugefügt",
+    "category": "Kategorie",
+    "description": "Beschreibung"
+  },
+  "cart": {
+    "title": "Warenkorb",
+    "empty": "Ihr Warenkorb ist leer.",
+    "emptyCta": "Shop entdecken",
+    "remove": "Entfernen",
+    "subtotal": "Zwischensumme",
+    "checkout": "Zur Kasse",
+    "continueShopping": "Weiter einkaufen",
+    "itemCount": "{count} Artikel"
+  },
+  "checkout": {
+    "title": "Kasse",
+    "shippingTitle": "Lieferdetails",
+    "contactName": "Name des Empfängers",
+    "contactPhone": "Telefonnummer",
+    "province": "Provinz",
+    "city": "Stadt",
+    "addressLine": "Vollständige Adresse",
+    "postalCode": "Postleitzahl (optional)",
+    "note": "Bestellhinweis (optional)",
+    "summaryTitle": "Bestellübersicht",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "shippingFree": "Kostenlos",
+    "total": "Gesamtbetrag",
+    "submit": "Online bezahlen",
+    "submitting": "Weiterleitung zur Zahlung...",
+    "emptyTitle": "Ihr Warenkorb ist leer",
+    "emptyBody": "Fügen Sie ein Produkt hinzu, bevor Sie zur Kasse gehen.",
+    "emptyCta": "Zum Shop",
+    "error": "Ihre Bestellung konnte nicht aufgegeben werden. Bitte versuchen Sie es erneut.",
+    "validation": {
+      "nameRequired": "Geben Sie den Namen des Empfängers ein.",
+      "phoneRequired": "Geben Sie eine gültige Telefonnummer ein.",
+      "cityRequired": "Dieses Feld ist erforderlich.",
+      "addressRequired": "Geben Sie die vollständige Adresse ein."
+    }
+  },
+  "checkoutResult": {
+    "successTitle": "Zahlung erfolgreich",
+    "successBody": "Ihre Bestellung wurde aufgegeben und wird bald für den Versand vorbereitet.",
+    "failedTitle": "Zahlung fehlgeschlagen",
+    "failedBody": "Ihre Zahlung konnte nicht durchgeführt werden. Sie können es erneut versuchen oder uns kontaktieren.",
+    "orderNumber": "Bestellnummer",
+    "viewAccount": "Meine Bestellungen ansehen",
+    "backToShop": "Zurück zum Shop"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Anmelden",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "submit": "Anmelden",
+      "noAccount": "Noch kein Konto?",
+      "signUpLink": "Registrieren"
+    },
+    "signUp": {
+      "title": "Konto erstellen",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail",
+      "phone": "Telefon (optional)",
+      "password": "Passwort",
+      "passwordHint": "Mindestens 10 Zeichen, mit einem Buchstaben und einer Zahl",
+      "submit": "Registrieren",
+      "haveAccount": "Bereits ein Konto?",
+      "signInLink": "Anmelden"
+    },
+    "validation": {
+      "emailInvalid": "Geben Sie eine gültige E-Mail-Adresse ein.",
+      "passwordRequired": "Geben Sie Ihr Passwort ein.",
+      "nameRequired": "Geben Sie Ihren vollständigen Namen ein.",
+      "passwordWeak": "Das Passwort muss mindestens 10 Zeichen, einen Buchstaben und eine Zahl enthalten."
+    }
+  },
+  "account": {
+    "title": "Konto",
+    "welcome": "Willkommen, {name}",
+    "ordersTitle": "Meine Bestellungen",
+    "ordersEmpty": "Sie haben noch keine Bestellungen aufgegeben.",
+    "orderNumber": "Bestellnummer",
+    "orderDate": "Datum",
+    "orderTotal": "Gesamt",
+    "orderStatus": "Status",
+    "signOut": "Abmelden",
+    "status": {
+      "PENDING_PAYMENT": "Zahlung ausstehend",
+      "PAID": "Bezahlt",
+      "PROCESSING": "In Bearbeitung",
+      "SHIPPED": "Versandt",
+      "DELIVERED": "Zugestellt",
+      "CANCELLED": "Storniert",
+      "REFUNDED": "Erstattet"
+    }
+  },
+  "admin": {
+    "nav": { "overview": "Übersicht", "products": "Produkte", "categories": "Kategorien", "orders": "Bestellungen", "users": "Benutzer", "messages": "Nachrichten" },
+    "overview": {
+      "title": "Verwaltungsübersicht",
+      "users": "Benutzer",
+      "orders": "Bestellungen",
+      "pendingOrders": "Zahlung ausstehend",
+      "revenue": "Eingenommener Umsatz",
+      "unhandledMessages": "Ungelesene Nachrichten",
+      "lowStock": "Niedriger Bestand"
+    },
+    "products": {
+      "title": "Produkte",
+      "new": "Neues Produkt",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "published": "Veröffentlicht",
+      "unpublished": "Nicht veröffentlicht",
+      "save": "Speichern",
+      "fields": {
+        "slug": "Slug",
+        "category": "Kategorie",
+        "nameFa": "Name (Persisch)",
+        "nameEn": "Name (Englisch)",
+        "summaryFa": "Zusammenfassung (Persisch)",
+        "summaryEn": "Zusammenfassung (Englisch)",
+        "descriptionFa": "Beschreibung (Persisch)",
+        "descriptionEn": "Beschreibung (Englisch)",
+        "unitFa": "Einheit (Persisch)",
+        "unitEn": "Einheit (Englisch)",
+        "price": "Preis (Rial)",
+        "stock": "Bestand",
+        "featured": "Hervorgehoben",
+        "published": "Veröffentlicht",
+        "images": "Bilder (durch Kommas getrennte URLs)"
+      }
+    },
+    "categories": {
+      "title": "Kategorien",
+      "new": "Neue Kategorie",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "save": "Speichern",
+      "fields": { "slug": "Slug", "nameFa": "Name (Persisch)", "nameEn": "Name (Englisch)", "descriptionFa": "Beschreibung (Persisch)", "descriptionEn": "Beschreibung (Englisch)", "displayOrder": "Anzeigereihenfolge" }
+    },
+    "orders": {
+      "title": "Bestellungen",
+      "customer": "Kunde",
+      "total": "Gesamt",
+      "status": "Status",
+      "date": "Datum",
+      "updateStatus": "Status aktualisieren"
+    },
+    "users": {
+      "title": "Benutzer",
+      "role": "Rolle",
+      "active": "Aktiv",
+      "inactive": "Inaktiv"
+    },
+    "messages": {
+      "title": "Kontaktnachrichten",
+      "handled": "Bearbeitet",
+      "unhandled": "Unbearbeitet",
+      "markHandled": "Als bearbeitet markieren"
+    }
+  },
+  "footer": {
+    "tagline": "Blumen, Heilpflanzen und Obstbaumsetzlinge, angebaut auf dem Varzan-Hof, Natanz.",
+    "quickLinks": "Schnellzugriff",
+    "contactTitle": "Kontakt",
+    "rights": "© {year} Rose Varzan Agrargenossenschaft. Alle Rechte vorbehalten."
+  },
+  "common": {
+    "toman": "Toman",
+    "rial": "Rial",
+    "loading": "Wird geladen...",
+    "error": "Etwas ist schiefgelaufen.",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "close": "Schließen"
+  }
+}

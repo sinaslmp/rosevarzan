@@ -1,0 +1,206 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-heading: var(--font-heading);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.55);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* Brand tokens, sampled from the cooperative's own logo pixels — not a
+     generic default palette. --brand is the primary pine-green from the
+     mountain mark, --rose is the wine-red rose accent from the wordmark,
+     used sparingly (sale tags, active states). */
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-sage: var(--sage);
+  --color-brand: var(--brand);
+  --color-brand-soft: var(--brand-soft);
+  --color-rose: var(--rose);
+  --color-rose-soft: var(--rose-soft);
+  --color-line: var(--line);
+}
+
+:root {
+  --paper: #f7f8f3;
+  --ink: #16241f;
+  --sage: #c2dfda;
+  --brand: #197860;
+  --brand-soft: #e3f0ea;
+  --rose: #5c1e2a;
+  --rose-soft: #f4e6e8;
+  --line: #dce6e1;
+
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: #ffffff;
+  --card-foreground: var(--ink);
+  --popover: #ffffff;
+  --popover-foreground: var(--ink);
+  --primary: var(--brand);
+  --primary-foreground: #f7fbf9;
+  --secondary: var(--sage);
+  --secondary-foreground: var(--ink);
+  --muted: #eef1ec;
+  --muted-foreground: #5c6d64;
+  --accent: #eef1ec;
+  --accent-foreground: var(--ink);
+  --destructive: #b3413a;
+  --border: var(--line);
+  --input: var(--line);
+  --ring: var(--brand);
+  --radius: 0.65rem;
+  --chart-1: var(--brand);
+  --chart-2: var(--rose);
+  --chart-3: #8a7a3f;
+  --chart-4: #4c7a91;
+  --chart-5: #5c6d64;
+  --sidebar: #ffffff;
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--brand);
+  --sidebar-primary-foreground: #f7fbf9;
+  --sidebar-accent: var(--muted);
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--line);
+  --sidebar-ring: var(--brand);
+
+  --font-sans: var(--font-fa);
+  --font-heading: var(--font-display);
+}
+
+html[dir="rtl"] {
+  --font-sans: var(--font-fa);
+  --font-heading: var(--font-fa);
+}
+
+.dark {
+  --paper: #0b1512;
+  --ink: #eaf0ec;
+  --sage: #1c3a32;
+  --brand: #34a57f;
+  --brand-soft: #143126;
+  --rose: #c05a6c;
+  --rose-soft: #3a1c22;
+  --line: #24352d;
+
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: #12211c;
+  --card-foreground: var(--ink);
+  --popover: #12211c;
+  --popover-foreground: var(--ink);
+  --primary: var(--brand);
+  --primary-foreground: #08130f;
+  --secondary: #16261f;
+  --secondary-foreground: var(--ink);
+  --muted: #16261f;
+  --muted-foreground: #9fb0a7;
+  --accent: #16261f;
+  --accent-foreground: var(--ink);
+  --destructive: #e0847c;
+  --border: var(--line);
+  --input: var(--line);
+  --ring: var(--brand);
+  --chart-1: var(--brand);
+  --chart-2: var(--rose);
+  --chart-3: #c7b264;
+  --chart-4: #7fb2c9;
+  --chart-5: #9fb0a7;
+  --sidebar: #12211c;
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--brand);
+  --sidebar-primary-foreground: #08130f;
+  --sidebar-accent: #16261f;
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--line);
+  --sidebar-ring: var(--brand);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  :root {
+    color-scheme: light;
+  }
+  :root.dark {
+    color-scheme: dark;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

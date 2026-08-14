@@ -1,0 +1,25 @@
+{
+  "name": "rosevarzan-platform",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n web,api -c cyan,amber \"WEB_PORT=${WEB_PORT:-3020} npm run dev --workspace=@rosevarzan/web\" \"WEB_ORIGIN=${WEB_ORIGIN:-http://localhost:${WEB_PORT:-3020}} npm run dev --workspace=@rosevarzan/api\"",
+    "dev:web": "npm run dev --workspace=@rosevarzan/web",
+    "dev:api": "npm run dev --workspace=@rosevarzan/api",
+    "build": "npm run build --workspace=@rosevarzan/web && npm run build --workspace=@rosevarzan/api",
+    "typecheck": "npm run typecheck --workspace=@rosevarzan/web && npm run typecheck --workspace=@rosevarzan/api",
+    "lint": "npm run lint --workspace=@rosevarzan/web",
+    "db:generate": "npm run prisma:generate --workspace=@rosevarzan/api",
+    "db:push": "npm run prisma:push --workspace=@rosevarzan/api",
+    "db:seed": "npm run prisma:seed --workspace=@rosevarzan/api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
