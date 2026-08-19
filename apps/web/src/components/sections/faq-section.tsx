@@ -6,7 +6,7 @@ export async function FaqSection({ locale }: { locale: string }) {
   const items = t.raw("items") as { question: string; answer: string }[];
 
   return (
-    <section className="mx-auto max-w-3xl border-t border-border px-6 py-20 sm:px-8">
+    <section id="faq" className="mx-auto max-w-3xl scroll-mt-28 border-t border-border px-6 py-20 sm:px-8">
       <p className="text-xs font-semibold uppercase tracking-[0.14em] text-brand">{t("eyebrow")}</p>
       <h2 className="mt-2 font-heading text-3xl font-semibold text-foreground">{t("title")}</h2>
 

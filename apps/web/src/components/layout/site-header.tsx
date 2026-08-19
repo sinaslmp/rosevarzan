@@ -28,6 +28,7 @@ import { cn } from "@/lib/utils";
 const NAV_LINKS = [
   { key: "shop", href: "/shop" },
   { key: "about", href: "/about" },
+  { key: "faq", href: "/#faq" },
   { key: "contact", href: "/contact" },
 ] as const;
 
@@ -95,8 +96,8 @@ export function SiteHeader() {
     <header className={cn("sticky inset-x-0 top-3 z-50 px-3 transition-[top] duration-300 sm:top-4 sm:px-4", scrolled && "top-2 sm:top-2.5")}>
       <div
         className={cn(
-          "mx-auto flex items-center justify-between gap-3 rounded-2xl border border-border bg-background/85 px-3 py-2.5 shadow-sm backdrop-blur-xl transition-all duration-300 ease-out sm:px-4",
-          scrolled ? "max-w-4xl rounded-full bg-background/95 py-1.5 shadow-md" : "max-w-6xl",
+          "mx-auto flex max-w-4xl items-center justify-between gap-3 rounded-2xl border border-border bg-background/85 px-3 py-2.5 shadow-sm backdrop-blur-xl transition-all duration-300 ease-out sm:px-4",
+          scrolled && "rounded-full bg-background/95 py-1.5 shadow-md",
         )}
       >
         <Link href="/" className="flex shrink-0 items-center gap-2">
