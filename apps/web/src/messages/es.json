@@ -15,8 +15,15 @@
     "signOut": "Cerrar sesión",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
-    "themeSwitcher": { "label": "Apariencia", "light": "Claro", "dark": "Oscuro", "system": "Sistema" },
-    "languageSwitcher": { "label": "Idioma" }
+    "themeSwitcher": {
+      "label": "Apariencia",
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    },
+    "languageSwitcher": {
+      "label": "Idioma"
+    }
   },
   "home": {
     "hero": {
@@ -70,6 +77,32 @@
     "cta": {
       "title": "Contáctenos para pedidos mayoristas o personalizados",
       "action": "Contáctenos"
+    },
+    "faq": {
+      "eyebrow": "Preguntas frecuentes",
+      "title": "Antes de pedir",
+      "items": [
+        {
+          "question": "¿Cómo realizo un pedido?",
+          "answer": "Añada un producto al carrito, ingrese los datos de envío al finalizar la compra y complete el pedido mediante la pasarela de pago en línea."
+        },
+        {
+          "question": "¿Cuánto cuesta el envío?",
+          "answer": "Actualmente el envío es gratuito en todos los pedidos."
+        },
+        {
+          "question": "¿Puedo hacer un pedido mayorista o personalizado?",
+          "answer": "Sí — contáctenos a través de la página de contacto para pedidos mayoristas o colaboraciones."
+        },
+        {
+          "question": "¿Cómo puedo pagar?",
+          "answer": "El pago se realiza en línea a través de una pasarela bancaria segura."
+        },
+        {
+          "question": "¿Cómo puedo rastrear mi pedido?",
+          "answer": "Una vez que inicie sesión, puede ver el estado y los detalles de cada pedido en «Mis pedidos» dentro de su cuenta."
+        }
+      ]
     }
   },
   "about": {
@@ -83,6 +116,10 @@
       "nationalId": "Identificación nacional: 10260072929",
       "type": "Tipo de empresa: Cooperativa",
       "date": "Registrada: 1382/03/27 (2003)"
+    },
+    "process": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "De la siembra al empaque"
     }
   },
   "contact": {
@@ -128,7 +165,8 @@
     "addToCart": "Añadir al carrito",
     "added": "Añadido al carrito",
     "category": "Categoría",
-    "description": "Descripción"
+    "description": "Descripción",
+    "relatedTitle": "Productos relacionados"
   },
   "cart": {
     "title": "Carrito",
@@ -222,10 +260,28 @@
       "DELIVERED": "Entregado",
       "CANCELLED": "Cancelado",
       "REFUNDED": "Reembolsado"
+    },
+    "backToOrders": "Volver a mis pedidos",
+    "orderDetail": {
+      "itemsTitle": "Artículos del pedido",
+      "paymentTitle": "Estado del pago",
+      "refId": "Referencia"
+    },
+    "paymentStatus": {
+      "PENDING": "Pendiente",
+      "SUCCESS": "Exitoso",
+      "FAILED": "Fallido"
     }
   },
   "admin": {
-    "nav": { "overview": "Resumen", "products": "Productos", "categories": "Categorías", "orders": "Pedidos", "users": "Usuarios", "messages": "Mensajes" },
+    "nav": {
+      "overview": "Resumen",
+      "products": "Productos",
+      "categories": "Categorías",
+      "orders": "Pedidos",
+      "users": "Usuarios",
+      "messages": "Mensajes"
+    },
     "overview": {
       "title": "Resumen de administración",
       "users": "Usuarios",
@@ -267,7 +323,14 @@
       "edit": "Editar",
       "delete": "Eliminar",
       "save": "Guardar",
-      "fields": { "slug": "Slug", "nameFa": "Nombre (persa)", "nameEn": "Nombre (inglés)", "descriptionFa": "Descripción (persa)", "descriptionEn": "Descripción (inglés)", "displayOrder": "Orden de visualización" }
+      "fields": {
+        "slug": "Slug",
+        "nameFa": "Nombre (persa)",
+        "nameEn": "Nombre (inglés)",
+        "descriptionFa": "Descripción (persa)",
+        "descriptionEn": "Descripción (inglés)",
+        "displayOrder": "Orden de visualización"
+      }
     },
     "orders": {
       "title": "Pedidos",

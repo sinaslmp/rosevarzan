@@ -15,8 +15,15 @@
     "signOut": "Çıkış yap",
     "openMenu": "Menüyü aç",
     "closeMenu": "Menüyü kapat",
-    "themeSwitcher": { "label": "Görünüm", "light": "Açık", "dark": "Koyu", "system": "Sistem" },
-    "languageSwitcher": { "label": "Dil" }
+    "themeSwitcher": {
+      "label": "Görünüm",
+      "light": "Açık",
+      "dark": "Koyu",
+      "system": "Sistem"
+    },
+    "languageSwitcher": {
+      "label": "Dil"
+    }
   },
   "home": {
     "hero": {
@@ -70,6 +77,32 @@
     "cta": {
       "title": "Toptan veya özel siparişler için bizimle iletişime geçin",
       "action": "Bize ulaşın"
+    },
+    "faq": {
+      "eyebrow": "Sıkça sorulan sorular",
+      "title": "Sipariş vermeden önce",
+      "items": [
+        {
+          "question": "Nasıl sipariş verebilirim?",
+          "answer": "Bir ürünü sepete ekleyin, ödeme sırasında teslimat bilgilerinizi girin ve siparişinizi çevrimiçi ödeme sayfası üzerinden tamamlayın."
+        },
+        {
+          "question": "Kargo ücreti ne kadar?",
+          "answer": "Şu anda tüm siparişlerde kargo ücretsizdir."
+        },
+        {
+          "question": "Toptan veya özel sipariş verebilir miyim?",
+          "answer": "Evet — toptan siparişler veya iş birlikleri için iletişim sayfasından bize ulaşın."
+        },
+        {
+          "question": "Nasıl ödeme yapabilirim?",
+          "answer": "Ödeme, güvenli bir banka geçidi üzerinden çevrimiçi olarak yapılır."
+        },
+        {
+          "question": "Siparişimi nasıl takip edebilirim?",
+          "answer": "Giriş yaptıktan sonra, hesabınızdaki \"Siparişlerim\" bölümünden her siparişin durumunu ve ayrıntılarını görebilirsiniz."
+        }
+      ]
     }
   },
   "about": {
@@ -83,6 +116,10 @@
       "nationalId": "Ulusal Kimlik No.: 10260072929",
       "type": "Şirket türü: Kooperatif",
       "date": "Kayıt tarihi: 1382/03/27 (2003)"
+    },
+    "process": {
+      "eyebrow": "Nasıl çalışıyoruz",
+      "title": "Ekimden paketlemeye"
     }
   },
   "contact": {
@@ -128,7 +165,8 @@
     "addToCart": "Sepete ekle",
     "added": "Sepete eklendi",
     "category": "Kategori",
-    "description": "Açıklama"
+    "description": "Açıklama",
+    "relatedTitle": "Benzer ürünler"
   },
   "cart": {
     "title": "Sepet",
@@ -222,10 +260,28 @@
       "DELIVERED": "Teslim edildi",
       "CANCELLED": "İptal edildi",
       "REFUNDED": "İade edildi"
+    },
+    "backToOrders": "Siparişlerime dön",
+    "orderDetail": {
+      "itemsTitle": "Sipariş kalemleri",
+      "paymentTitle": "Ödeme durumu",
+      "refId": "Referans"
+    },
+    "paymentStatus": {
+      "PENDING": "Beklemede",
+      "SUCCESS": "Başarılı",
+      "FAILED": "Başarısız"
     }
   },
   "admin": {
-    "nav": { "overview": "Genel bakış", "products": "Ürünler", "categories": "Kategoriler", "orders": "Siparişler", "users": "Kullanıcılar", "messages": "Mesajlar" },
+    "nav": {
+      "overview": "Genel bakış",
+      "products": "Ürünler",
+      "categories": "Kategoriler",
+      "orders": "Siparişler",
+      "users": "Kullanıcılar",
+      "messages": "Mesajlar"
+    },
     "overview": {
       "title": "Yönetim genel bakışı",
       "users": "Kullanıcılar",
@@ -267,7 +323,14 @@
       "edit": "Düzenle",
       "delete": "Sil",
       "save": "Kaydet",
-      "fields": { "slug": "Slug", "nameFa": "Ad (Farsça)", "nameEn": "Ad (İngilizce)", "descriptionFa": "Açıklama (Farsça)", "descriptionEn": "Açıklama (İngilizce)", "displayOrder": "Görüntüleme sırası" }
+      "fields": {
+        "slug": "Slug",
+        "nameFa": "Ad (Farsça)",
+        "nameEn": "Ad (İngilizce)",
+        "descriptionFa": "Açıklama (Farsça)",
+        "descriptionEn": "Açıklama (İngilizce)",
+        "displayOrder": "Görüntüleme sırası"
+      }
     },
     "orders": {
       "title": "Siparişler",

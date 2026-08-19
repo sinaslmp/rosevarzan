@@ -15,8 +15,15 @@
     "signOut": "Abmelden",
     "openMenu": "Menü öffnen",
     "closeMenu": "Menü schließen",
-    "themeSwitcher": { "label": "Darstellung", "light": "Hell", "dark": "Dunkel", "system": "System" },
-    "languageSwitcher": { "label": "Sprache" }
+    "themeSwitcher": {
+      "label": "Darstellung",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "System"
+    },
+    "languageSwitcher": {
+      "label": "Sprache"
+    }
   },
   "home": {
     "hero": {
@@ -70,6 +77,32 @@
     "cta": {
       "title": "Kontaktieren Sie uns für Großhandels- oder Sonderbestellungen",
       "action": "Kontakt aufnehmen"
+    },
+    "faq": {
+      "eyebrow": "Häufige Fragen",
+      "title": "Bevor Sie bestellen",
+      "items": [
+        {
+          "question": "Wie bestelle ich?",
+          "answer": "Legen Sie ein Produkt in den Warenkorb, geben Sie an der Kasse Ihre Lieferdaten ein und schließen Sie die Bestellung über das Online-Zahlungsportal ab."
+        },
+        {
+          "question": "Was kostet der Versand?",
+          "answer": "Der Versand ist derzeit bei allen Bestellungen kostenlos."
+        },
+        {
+          "question": "Kann ich Großhandels- oder Sonderbestellungen aufgeben?",
+          "answer": "Ja — nehmen Sie über die Kontaktseite Kontakt für Großhandelsbestellungen oder Kooperationen auf."
+        },
+        {
+          "question": "Wie kann ich bezahlen?",
+          "answer": "Die Zahlung erfolgt online über ein sicheres Bank-Gateway."
+        },
+        {
+          "question": "Wie verfolge ich meine Bestellung?",
+          "answer": "Nach der Anmeldung sehen Sie Status und Details jeder Bestellung unter \"Meine Bestellungen\" in Ihrem Konto."
+        }
+      ]
     }
   },
   "about": {
@@ -83,6 +116,10 @@
       "nationalId": "Nationale ID: 10260072929",
       "type": "Unternehmensform: Genossenschaft",
       "date": "Registriert: 1382/03/27 (2003)"
+    },
+    "process": {
+      "eyebrow": "So arbeiten wir",
+      "title": "Vom Anbau bis zur Verpackung"
     }
   },
   "contact": {
@@ -128,7 +165,8 @@
     "addToCart": "In den Warenkorb",
     "added": "Zum Warenkorb hinzugefügt",
     "category": "Kategorie",
-    "description": "Beschreibung"
+    "description": "Beschreibung",
+    "relatedTitle": "Ähnliche Produkte"
   },
   "cart": {
     "title": "Warenkorb",
@@ -222,10 +260,28 @@
       "DELIVERED": "Zugestellt",
       "CANCELLED": "Storniert",
       "REFUNDED": "Erstattet"
+    },
+    "backToOrders": "Zurück zu meinen Bestellungen",
+    "orderDetail": {
+      "itemsTitle": "Bestellte Artikel",
+      "paymentTitle": "Zahlungsstatus",
+      "refId": "Referenz"
+    },
+    "paymentStatus": {
+      "PENDING": "Ausstehend",
+      "SUCCESS": "Erfolgreich",
+      "FAILED": "Fehlgeschlagen"
     }
   },
   "admin": {
-    "nav": { "overview": "Übersicht", "products": "Produkte", "categories": "Kategorien", "orders": "Bestellungen", "users": "Benutzer", "messages": "Nachrichten" },
+    "nav": {
+      "overview": "Übersicht",
+      "products": "Produkte",
+      "categories": "Kategorien",
+      "orders": "Bestellungen",
+      "users": "Benutzer",
+      "messages": "Nachrichten"
+    },
     "overview": {
       "title": "Verwaltungsübersicht",
       "users": "Benutzer",
@@ -267,7 +323,14 @@
       "edit": "Bearbeiten",
       "delete": "Löschen",
       "save": "Speichern",
-      "fields": { "slug": "Slug", "nameFa": "Name (Persisch)", "nameEn": "Name (Englisch)", "descriptionFa": "Beschreibung (Persisch)", "descriptionEn": "Beschreibung (Englisch)", "displayOrder": "Anzeigereihenfolge" }
+      "fields": {
+        "slug": "Slug",
+        "nameFa": "Name (Persisch)",
+        "nameEn": "Name (Englisch)",
+        "descriptionFa": "Beschreibung (Persisch)",
+        "descriptionEn": "Beschreibung (Englisch)",
+        "displayOrder": "Anzeigereihenfolge"
+      }
     },
     "orders": {
       "title": "Bestellungen",

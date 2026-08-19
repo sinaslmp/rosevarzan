@@ -15,8 +15,15 @@
     "signOut": "退出登录",
     "openMenu": "打开菜单",
     "closeMenu": "关闭菜单",
-    "themeSwitcher": { "label": "外观", "light": "浅色", "dark": "深色", "system": "系统" },
-    "languageSwitcher": { "label": "语言" }
+    "themeSwitcher": {
+      "label": "外观",
+      "light": "浅色",
+      "dark": "深色",
+      "system": "系统"
+    },
+    "languageSwitcher": {
+      "label": "语言"
+    }
   },
   "home": {
     "hero": {
@@ -70,6 +77,32 @@
     "cta": {
       "title": "如需批发或定制订单，请与我们联系",
       "action": "联系我们"
+    },
+    "faq": {
+      "eyebrow": "常见问题",
+      "title": "下单前须知",
+      "items": [
+        {
+          "question": "如何下单？",
+          "answer": "将商品加入购物车，在结算页填写收货信息，然后通过在线支付网关完成付款即可下单。"
+        },
+        {
+          "question": "运费是多少？",
+          "answer": "目前所有订单均免运费。"
+        },
+        {
+          "question": "可以批发或定制订单吗？",
+          "answer": "可以——请通过联系页面与我们联系，洽谈批发订单或业务合作。"
+        },
+        {
+          "question": "可以怎样付款？",
+          "answer": "付款通过安全的银行网关在线完成。"
+        },
+        {
+          "question": "如何查询订单状态？",
+          "answer": "登录后，可在账户的“我的订单”中查看每笔订单的状态和详情。"
+        }
+      ]
     }
   },
   "about": {
@@ -83,6 +116,10 @@
       "nationalId": "国家识别码：10260072929",
       "type": "公司类型：合作社",
       "date": "注册日期：1382/03/27（2003年）"
+    },
+    "process": {
+      "eyebrow": "我们的工作方式",
+      "title": "从种植到包装"
     }
   },
   "contact": {
@@ -128,7 +165,8 @@
     "addToCart": "加入购物车",
     "added": "已加入购物车",
     "category": "分类",
-    "description": "描述"
+    "description": "描述",
+    "relatedTitle": "相关产品"
   },
   "cart": {
     "title": "购物车",
@@ -222,10 +260,28 @@
       "DELIVERED": "已送达",
       "CANCELLED": "已取消",
       "REFUNDED": "已退款"
+    },
+    "backToOrders": "返回我的订单",
+    "orderDetail": {
+      "itemsTitle": "订单商品",
+      "paymentTitle": "支付状态",
+      "refId": "参考号"
+    },
+    "paymentStatus": {
+      "PENDING": "待处理",
+      "SUCCESS": "成功",
+      "FAILED": "失败"
     }
   },
   "admin": {
-    "nav": { "overview": "概览", "products": "产品", "categories": "分类", "orders": "订单", "users": "用户", "messages": "留言" },
+    "nav": {
+      "overview": "概览",
+      "products": "产品",
+      "categories": "分类",
+      "orders": "订单",
+      "users": "用户",
+      "messages": "留言"
+    },
     "overview": {
       "title": "管理概览",
       "users": "用户",
@@ -267,7 +323,14 @@
       "edit": "编辑",
       "delete": "删除",
       "save": "保存",
-      "fields": { "slug": "别名（Slug）", "nameFa": "名称（波斯语）", "nameEn": "名称（英语）", "descriptionFa": "描述（波斯语）", "descriptionEn": "描述（英语）", "displayOrder": "显示顺序" }
+      "fields": {
+        "slug": "别名（Slug）",
+        "nameFa": "名称（波斯语）",
+        "nameEn": "名称（英语）",
+        "descriptionFa": "描述（波斯语）",
+        "descriptionEn": "描述（英语）",
+        "displayOrder": "显示顺序"
+      }
     },
     "orders": {
       "title": "订单",

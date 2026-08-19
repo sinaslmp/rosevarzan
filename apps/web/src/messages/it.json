@@ -15,8 +15,15 @@
     "signOut": "Esci",
     "openMenu": "Apri menu",
     "closeMenu": "Chiudi menu",
-    "themeSwitcher": { "label": "Aspetto", "light": "Chiaro", "dark": "Scuro", "system": "Sistema" },
-    "languageSwitcher": { "label": "Lingua" }
+    "themeSwitcher": {
+      "label": "Aspetto",
+      "light": "Chiaro",
+      "dark": "Scuro",
+      "system": "Sistema"
+    },
+    "languageSwitcher": {
+      "label": "Lingua"
+    }
   },
   "home": {
     "hero": {
@@ -70,6 +77,32 @@
     "cta": {
       "title": "Contattaci per ordini all'ingrosso o personalizzati",
       "action": "Contattaci"
+    },
+    "faq": {
+      "eyebrow": "Domande frequenti",
+      "title": "Prima di ordinare",
+      "items": [
+        {
+          "question": "Come effettuo un ordine?",
+          "answer": "Aggiungi un prodotto al carrello, inserisci i dati di spedizione al momento del pagamento e completa l'ordine tramite il gateway di pagamento online."
+        },
+        {
+          "question": "Quanto costa la spedizione?",
+          "answer": "Al momento la spedizione è gratuita su tutti gli ordini."
+        },
+        {
+          "question": "Posso fare un ordine all'ingrosso o personalizzato?",
+          "answer": "Sì — contattaci tramite la pagina dei contatti per ordini all'ingrosso o collaborazioni."
+        },
+        {
+          "question": "Come posso pagare?",
+          "answer": "Il pagamento avviene online tramite un gateway bancario sicuro."
+        },
+        {
+          "question": "Come posso tracciare il mio ordine?",
+          "answer": "Una volta effettuato l'accesso, puoi vedere stato e dettagli di ogni ordine in «I miei ordini» nel tuo account."
+        }
+      ]
     }
   },
   "about": {
@@ -83,6 +116,10 @@
       "nationalId": "ID nazionale: 10260072929",
       "type": "Tipo di società: Cooperativa",
       "date": "Registrata: 1382/03/27 (2003)"
+    },
+    "process": {
+      "eyebrow": "Come lavoriamo",
+      "title": "Dalla semina all'imballaggio"
     }
   },
   "contact": {
@@ -128,7 +165,8 @@
     "addToCart": "Aggiungi al carrello",
     "added": "Aggiunto al carrello",
     "category": "Categoria",
-    "description": "Descrizione"
+    "description": "Descrizione",
+    "relatedTitle": "Prodotti correlati"
   },
   "cart": {
     "title": "Carrello",
@@ -222,10 +260,28 @@
       "DELIVERED": "Consegnato",
       "CANCELLED": "Annullato",
       "REFUNDED": "Rimborsato"
+    },
+    "backToOrders": "Torna ai miei ordini",
+    "orderDetail": {
+      "itemsTitle": "Articoli dell'ordine",
+      "paymentTitle": "Stato del pagamento",
+      "refId": "Riferimento"
+    },
+    "paymentStatus": {
+      "PENDING": "In attesa",
+      "SUCCESS": "Riuscito",
+      "FAILED": "Non riuscito"
     }
   },
   "admin": {
-    "nav": { "overview": "Panoramica", "products": "Prodotti", "categories": "Categorie", "orders": "Ordini", "users": "Utenti", "messages": "Messaggi" },
+    "nav": {
+      "overview": "Panoramica",
+      "products": "Prodotti",
+      "categories": "Categorie",
+      "orders": "Ordini",
+      "users": "Utenti",
+      "messages": "Messaggi"
+    },
     "overview": {
       "title": "Panoramica amministrativa",
       "users": "Utenti",
@@ -267,7 +323,14 @@
       "edit": "Modifica",
       "delete": "Elimina",
       "save": "Salva",
-      "fields": { "slug": "Slug", "nameFa": "Nome (persiano)", "nameEn": "Nome (inglese)", "descriptionFa": "Descrizione (persiano)", "descriptionEn": "Descrizione (inglese)", "displayOrder": "Ordine di visualizzazione" }
+      "fields": {
+        "slug": "Slug",
+        "nameFa": "Nome (persiano)",
+        "nameEn": "Nome (inglese)",
+        "descriptionFa": "Descrizione (persiano)",
+        "descriptionEn": "Descrizione (inglese)",
+        "displayOrder": "Ordine di visualizzazione"
+      }
     },
     "orders": {
       "title": "Ordini",

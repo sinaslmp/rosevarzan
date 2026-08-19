@@ -6,6 +6,7 @@ import { ApiError, catalog } from "@/lib/api";
 import { toToman } from "@/lib/money";
 import { Link } from "@/i18n/navigation";
 import { AddToCartForm } from "@/components/sections/add-to-cart-form";
+import { ProductCard } from "@/components/sections/product-card";
 
 export default async function ProductPage({ params }: PageProps<"/[locale]/shop/[slug]">) {
   const { locale, slug } = await params;
@@ -24,6 +25,10 @@ export default async function ProductPage({ params }: PageProps<"/[locale]/shop/
   );
 
   if (!product) notFound();
+
+  const related = product.category
+    ? await catalog.products({ category: product.category.slug }).then((res) => res.products.filter((p) => p.id !== product.id).slice(0, 4))
+    : [];
 
   const name = locale === "fa" ? product.nameFa : product.nameEn;
   const description = locale === "fa" ? product.descriptionFa : product.descriptionEn;
@@ -70,6 +75,17 @@ export default async function ProductPage({ params }: PageProps<"/[locale]/shop/
           </div>
         </div>
       </div>
+
+      {related.length > 0 && (
+        <div className="mt-16 border-t border-border pt-10">
+          <h2 className="font-heading text-xl font-semibold text-foreground">{t("relatedTitle")}</h2>
+          <div className="mt-6 grid grid-cols-2 gap-x-5 gap-y-8 sm:grid-cols-4">
+            {related.map((item) => (
+              <ProductCard key={item.id} product={item} />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

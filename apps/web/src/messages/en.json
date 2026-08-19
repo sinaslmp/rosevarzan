@@ -15,8 +15,15 @@
     "signOut": "Sign out",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "themeSwitcher": { "label": "Appearance", "light": "Light", "dark": "Dark", "system": "System" },
-    "languageSwitcher": { "label": "Language" }
+    "themeSwitcher": {
+      "label": "Appearance",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "languageSwitcher": {
+      "label": "Language"
+    }
   },
   "home": {
     "hero": {
@@ -70,6 +77,32 @@
     "cta": {
       "title": "Get in touch for wholesale or custom orders",
       "action": "Contact us"
+    },
+    "faq": {
+      "eyebrow": "Frequently asked",
+      "title": "Before you order",
+      "items": [
+        {
+          "question": "How do I place an order?",
+          "answer": "Add a product to your cart, enter your shipping details at checkout, and complete your order through the online payment gateway."
+        },
+        {
+          "question": "What does shipping cost?",
+          "answer": "Shipping is currently free on all orders."
+        },
+        {
+          "question": "Can I order wholesale or place a custom order?",
+          "answer": "Yes — get in touch through the contact page for wholesale orders or business partnerships."
+        },
+        {
+          "question": "How can I pay?",
+          "answer": "Payment is made online through a secure banking gateway."
+        },
+        {
+          "question": "How do I track my order?",
+          "answer": "Once signed in, you can see the status and details of every order under \"My orders\" in your account."
+        }
+      ]
     }
   },
   "about": {
@@ -83,6 +116,10 @@
       "nationalId": "National ID: 10260072929",
       "type": "Company type: Cooperative",
       "date": "Registered: 1382/03/27 (2003)"
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "From planting to packaging"
     }
   },
   "contact": {
@@ -128,7 +165,8 @@
     "addToCart": "Add to cart",
     "added": "Added to cart",
     "category": "Category",
-    "description": "Description"
+    "description": "Description",
+    "relatedTitle": "Related products"
   },
   "cart": {
     "title": "Cart",
@@ -222,10 +260,28 @@
       "DELIVERED": "Delivered",
       "CANCELLED": "Cancelled",
       "REFUNDED": "Refunded"
+    },
+    "backToOrders": "Back to orders",
+    "orderDetail": {
+      "itemsTitle": "Order items",
+      "paymentTitle": "Payment status",
+      "refId": "Reference"
+    },
+    "paymentStatus": {
+      "PENDING": "Pending",
+      "SUCCESS": "Successful",
+      "FAILED": "Failed"
     }
   },
   "admin": {
-    "nav": { "overview": "Overview", "products": "Products", "categories": "Categories", "orders": "Orders", "users": "Users", "messages": "Messages" },
+    "nav": {
+      "overview": "Overview",
+      "products": "Products",
+      "categories": "Categories",
+      "orders": "Orders",
+      "users": "Users",
+      "messages": "Messages"
+    },
     "overview": {
       "title": "Admin overview",
       "users": "Users",
@@ -267,7 +323,14 @@
       "edit": "Edit",
       "delete": "Delete",
       "save": "Save",
-      "fields": { "slug": "Slug", "nameFa": "Name (Persian)", "nameEn": "Name (English)", "descriptionFa": "Description (Persian)", "descriptionEn": "Description (English)", "displayOrder": "Display order" }
+      "fields": {
+        "slug": "Slug",
+        "nameFa": "Name (Persian)",
+        "nameEn": "Name (English)",
+        "descriptionFa": "Description (Persian)",
+        "descriptionEn": "Description (English)",
+        "displayOrder": "Display order"
+      }
     },
     "orders": {
       "title": "Orders",

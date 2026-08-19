@@ -15,8 +15,15 @@
     "signOut": "Déconnexion",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
-    "themeSwitcher": { "label": "Apparence", "light": "Clair", "dark": "Sombre", "system": "Système" },
-    "languageSwitcher": { "label": "Langue" }
+    "themeSwitcher": {
+      "label": "Apparence",
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système"
+    },
+    "languageSwitcher": {
+      "label": "Langue"
+    }
   },
   "home": {
     "hero": {
@@ -70,6 +77,32 @@
     "cta": {
       "title": "Contactez-nous pour des commandes de gros ou personnalisées",
       "action": "Nous contacter"
+    },
+    "faq": {
+      "eyebrow": "Questions fréquentes",
+      "title": "Avant de commander",
+      "items": [
+        {
+          "question": "Comment passer une commande ?",
+          "answer": "Ajoutez un produit au panier, indiquez vos coordonnées de livraison lors du paiement et finalisez votre commande via la passerelle de paiement en ligne."
+        },
+        {
+          "question": "Quel est le coût de la livraison ?",
+          "answer": "La livraison est actuellement gratuite pour toutes les commandes."
+        },
+        {
+          "question": "Puis-je passer une commande de gros ou personnalisée ?",
+          "answer": "Oui — contactez-nous via la page de contact pour les commandes de gros ou les partenariats."
+        },
+        {
+          "question": "Comment puis-je payer ?",
+          "answer": "Le paiement s'effectue en ligne via une passerelle bancaire sécurisée."
+        },
+        {
+          "question": "Comment suivre ma commande ?",
+          "answer": "Une fois connecté, vous pouvez voir le statut et les détails de chaque commande dans « Mes commandes » de votre compte."
+        }
+      ]
     }
   },
   "about": {
@@ -83,6 +116,10 @@
       "nationalId": "Identifiant national : 10260072929",
       "type": "Type de société : Coopérative",
       "date": "Enregistrée : 1382/03/27 (2003)"
+    },
+    "process": {
+      "eyebrow": "Notre méthode",
+      "title": "De la plantation à l'emballage"
     }
   },
   "contact": {
@@ -128,7 +165,8 @@
     "addToCart": "Ajouter au panier",
     "added": "Ajouté au panier",
     "category": "Catégorie",
-    "description": "Description"
+    "description": "Description",
+    "relatedTitle": "Produits similaires"
   },
   "cart": {
     "title": "Panier",
@@ -222,10 +260,28 @@
       "DELIVERED": "Livrée",
       "CANCELLED": "Annulée",
       "REFUNDED": "Remboursée"
+    },
+    "backToOrders": "Retour à mes commandes",
+    "orderDetail": {
+      "itemsTitle": "Articles de la commande",
+      "paymentTitle": "Statut du paiement",
+      "refId": "Référence"
+    },
+    "paymentStatus": {
+      "PENDING": "En attente",
+      "SUCCESS": "Réussi",
+      "FAILED": "Échoué"
     }
   },
   "admin": {
-    "nav": { "overview": "Vue d'ensemble", "products": "Produits", "categories": "Catégories", "orders": "Commandes", "users": "Utilisateurs", "messages": "Messages" },
+    "nav": {
+      "overview": "Vue d'ensemble",
+      "products": "Produits",
+      "categories": "Catégories",
+      "orders": "Commandes",
+      "users": "Utilisateurs",
+      "messages": "Messages"
+    },
     "overview": {
       "title": "Vue d'ensemble de l'administration",
       "users": "Utilisateurs",
@@ -267,7 +323,14 @@
       "edit": "Modifier",
       "delete": "Supprimer",
       "save": "Enregistrer",
-      "fields": { "slug": "Slug", "nameFa": "Nom (persan)", "nameEn": "Nom (anglais)", "descriptionFa": "Description (persan)", "descriptionEn": "Description (anglais)", "displayOrder": "Ordre d'affichage" }
+      "fields": {
+        "slug": "Slug",
+        "nameFa": "Nom (persan)",
+        "nameEn": "Nom (anglais)",
+        "descriptionFa": "Description (persan)",
+        "descriptionEn": "Description (anglais)",
+        "displayOrder": "Ordre d'affichage"
+      }
     },
     "orders": {
       "title": "Commandes",
