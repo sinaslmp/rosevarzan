@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
-import { LayoutDashboard, LogOut, Menu, UserRound, X } from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
+import { ChevronDown, LayoutDashboard, LogOut, Menu, UserRound, X } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
@@ -21,6 +21,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useAuth } from "@/context/auth-context";
+import { catalog } from "@/lib/api";
+import type { Category } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 const NAV_LINKS = [
@@ -40,10 +42,14 @@ function initials(name: string) {
 
 export function SiteHeader() {
   const t = useTranslations("nav");
+  const tShop = useTranslations("shop");
+  const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
   const { user, logout } = useAuth();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [categories, setCategories] = useState<Category[]>([]);
 
   function isNavActive(href: string) {
     return pathname === href || pathname.startsWith(`${href}/`);
@@ -64,17 +70,85 @@ export function SiteHeader() {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [menuOpen]);
 
+  useEffect(() => {
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      setScrolled(window.scrollY > 28);
+    };
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(update);
+    };
+    update();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      if (frame) window.cancelAnimationFrame(frame);
+    };
+  }, []);
+
+  useEffect(() => {
+    catalog.categories().then((res) => setCategories(res.categories));
+  }, []);
+
   return (
-    <header className="sticky inset-x-0 top-3 z-50 px-3 sm:top-4 sm:px-4">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 rounded-2xl border border-border bg-background/85 px-3 py-2.5 shadow-sm backdrop-blur-xl sm:px-4">
+    <header className={cn("sticky inset-x-0 top-3 z-50 px-3 transition-[top] duration-300 sm:top-4 sm:px-4", scrolled && "top-2 sm:top-2.5")}>
+      <div
+        className={cn(
+          "mx-auto flex items-center justify-between gap-3 rounded-2xl border border-border bg-background/85 px-3 py-2.5 shadow-sm backdrop-blur-xl transition-all duration-300 ease-out sm:px-4",
+          scrolled ? "max-w-4xl rounded-full bg-background/95 py-1.5 shadow-md" : "max-w-6xl",
+        )}
+      >
         <Link href="/" className="flex shrink-0 items-center gap-2">
-          <Image src="/brand/logo-icon.png" alt="" width={32} height={32} className="size-8 object-contain" priority />
+          <Image
+            src="/brand/logo-icon.png"
+            alt=""
+            width={32}
+            height={32}
+            className={cn("size-8 origin-center object-contain transition-transform duration-300", scrolled && "scale-90")}
+            priority
+          />
           <span className="font-heading text-lg font-semibold tracking-tight text-foreground">Rose Varzan</span>
         </Link>
 
-        <nav aria-label="Primary" className="hidden items-center gap-6 md:flex">
+        <nav aria-label="Primary" className={cn("hidden items-center md:flex", scrolled ? "gap-4" : "gap-6")}>
           {NAV_LINKS.map((link) => {
             const active = isNavActive(link.href);
+            if (link.key === "shop") {
+              return (
+                <DropdownMenu key={link.key} modal={false}>
+                  <DropdownMenuTrigger
+                    render={
+                      <button
+                        type="button"
+                        className={cn(
+                          "flex items-center gap-1 text-sm font-medium transition-colors",
+                          active ? "text-foreground" : "text-foreground/55 hover:text-foreground/80",
+                        )}
+                      />
+                    }
+                  >
+                    {t(link.key)}
+                    <ChevronDown className="size-3.5" aria-hidden />
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="start" sideOffset={12}>
+                    <DropdownMenuGroup>
+                      <DropdownMenuItem render={<Link href="/shop" />}>{tShop("allCategories")}</DropdownMenuItem>
+                    </DropdownMenuGroup>
+                    {categories.length > 0 && (
+                      <>
+                        <DropdownMenuSeparator />
+                        {categories.map((category) => (
+                          <DropdownMenuItem key={category.id} render={<Link href={`/shop?category=${category.slug}`} />}>
+                            {locale === "fa" ? category.nameFa : category.nameEn}
+                          </DropdownMenuItem>
+                        ))}
+                      </>
+                    )}
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              );
+            }
             return (
               <Link
                 key={link.key}

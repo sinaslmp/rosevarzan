@@ -23,7 +23,9 @@
     },
     "languageSwitcher": {
       "label": "Язык"
-    }
+    },
+    "announcement": "Бесплатная доставка по всей стране — безопасная онлайн-оплата",
+    "allCategories": "Все категории"
   },
   "home": {
     "hero": {
