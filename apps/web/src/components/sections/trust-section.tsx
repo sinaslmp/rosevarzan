@@ -7,7 +7,7 @@ export async function TrustSection({ locale }: { locale: string }) {
     locale === "fa"
       ? [
           { label: t("regNumber"), value: "۳۲۵" },
-          { label: t("nationalId"), value: "10260072929", dir: "ltr" as const },
+          { label: t("nationalId"), value: "10260072929" },
           { label: t("regDate"), value: "۱۳۸۲/۰۳/۲۷" },
           { label: t("location"), value: "طرقرود، نطنز، اصفهان" },
         ]
@@ -27,9 +27,7 @@ export async function TrustSection({ locale }: { locale: string }) {
           {items.map((item) => (
             <div key={item.label}>
               <dt className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{item.label}</dt>
-              <dd className="mt-1.5 font-heading text-lg font-semibold text-foreground" dir={item.dir}>
-                {item.value}
-              </dd>
+              <dd className="mt-1.5 font-heading text-lg font-semibold text-foreground">{item.value}</dd>
             </div>
           ))}
         </dl>
