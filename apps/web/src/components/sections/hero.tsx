@@ -7,7 +7,7 @@ import { Link } from "@/i18n/navigation";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-const STAGE_IMAGES = ["/farm/orchard-blossom.jpg", "/farm/damask-rose-petals.jpg", "/farm/saffron.jpg"];
+const STAGE_IMAGES = ["/farm/cherry-blossom.jpg", "/farm/rose-bed.jpg", "/farm/dried-herbs-jars.jpg"];
 
 export function Hero() {
   const t = useTranslations("home.hero");

@@ -8,9 +8,9 @@ import { Link } from "@/i18n/navigation";
 import type { Category } from "@/lib/types";
 
 const CATEGORY_IMAGES: Record<string, string> = {
-  "ornamental-flowers": "/farm/damask-rose-petals.jpg",
-  "medicinal-edible-plants": "/farm/saffron.jpg",
-  "fruit-tree-saplings": "/farm/orchard-blossom.jpg",
+  "ornamental-flowers": "/farm/rose-archway.jpg",
+  "medicinal-edible-plants": "/farm/saffron-crocus.jpg",
+  "fruit-tree-saplings": "/farm/apple-orchard.jpg",
 };
 
 export function CategoryShowcase({ categories }: { categories: Category[] }) {
@@ -38,7 +38,7 @@ export function CategoryShowcase({ categories }: { categories: Category[] }) {
             <Link href={`/shop?category=${category.slug}`} className="group block overflow-hidden rounded-3xl border border-border">
               <div className="relative aspect-[4/5]">
                 <Image
-                  src={CATEGORY_IMAGES[category.slug] ?? "/farm/orchard-blossom.jpg"}
+                  src={CATEGORY_IMAGES[category.slug] ?? "/farm/apple-orchard.jpg"}
                   alt=""
                   fill
                   sizes="(min-width: 640px) 33vw, 100vw"

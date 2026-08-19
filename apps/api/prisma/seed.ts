@@ -58,6 +58,7 @@ async function main() {
           unitEn: "plant",
           price: 350000,
           stock: 40,
+          images: ["/farm/rose-bed.jpg"],
         },
         {
           slug: "chrysanthemum",
@@ -90,6 +91,7 @@ async function main() {
           unitEn: "100g pack",
           price: 220000,
           stock: 100,
+          images: ["/farm/floral-arrangement.jpg"],
         },
         {
           slug: "mint-seedling",
@@ -122,6 +124,7 @@ async function main() {
           unitEn: "sapling",
           price: 480000,
           stock: 30,
+          images: ["/farm/cherry-branch.jpg"],
         },
         {
           slug: "seedless-grape-sapling",
@@ -154,7 +157,7 @@ async function main() {
           categoryId: category.id,
           descriptionFa: `${product.summaryFa} ${PLACEHOLDER_NOTE_FA}`,
           descriptionEn: `${product.summaryEn} ${PLACEHOLDER_NOTE_EN}`,
-          images: [],
+          images: "images" in product ? product.images : [],
           featured: index === 0,
           published: true,
           displayOrder: index,

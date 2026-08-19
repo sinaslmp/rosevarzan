@@ -15,7 +15,7 @@ export default async function AboutPage({ params }: PageProps<"/[locale]/about">
       <h1 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">{t("title")}</h1>
 
       <div className="relative mt-8 aspect-[16/9] overflow-hidden rounded-3xl">
-        <Image src="/farm/estate-pool.jpg" alt="" fill sizes="(min-width: 1024px) 800px, 100vw" className="object-cover" />
+        <Image src="/farm/apple-orchard.jpg" alt="" fill sizes="(min-width: 1024px) 800px, 100vw" className="object-cover" />
       </div>
 
       <div className="mt-10 space-y-5 text-base leading-8 text-foreground/85">
@@ -53,7 +53,7 @@ export default async function AboutPage({ params }: PageProps<"/[locale]/about">
       </div>
 
       <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3">
-        {["/farm/orchard-blossom.jpg", "/farm/damask-rose-petals.jpg", "/farm/saffron.jpg", "/farm/cherries.jpg", "/farm/apples.jpg", "/farm/estate-courtyard.jpg"].map((src) => (
+        {["/farm/cherry-blossom.jpg", "/farm/rose-bed.jpg", "/farm/saffron-crocus.jpg", "/farm/dried-herbs-jars.jpg", "/farm/cherry-branch.jpg", "/farm/floral-arrangement.jpg"].map((src) => (
           <div key={src} className="relative aspect-square overflow-hidden rounded-2xl">
             <Image src={src} alt="" fill sizes="200px" className="object-cover" />
           </div>
