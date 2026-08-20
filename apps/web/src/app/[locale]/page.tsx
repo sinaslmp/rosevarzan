@@ -5,7 +5,6 @@ import { Hero } from "@/components/sections/hero";
 import { CategoryShowcase } from "@/components/sections/category-showcase";
 import { ProductCard } from "@/components/sections/product-card";
 import { TrustSection } from "@/components/sections/trust-section";
-import { FaqSection } from "@/components/sections/faq-section";
 import { catalog } from "@/lib/api";
 import { cn } from "@/lib/utils";
 
@@ -41,8 +40,6 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       )}
 
       <TrustSection locale={locale} />
-
-      <FaqSection locale={locale} />
 
       <section className="mx-auto max-w-6xl border-t border-border px-6 py-20 text-center sm:px-8">
         <h2 className="font-heading text-2xl font-semibold text-foreground sm:text-3xl">{t("cta.title")}</h2>
